@@ -1,0 +1,29 @@
+{
+  "item_id": "REPLACE: lane-slug-0001",
+  "lane": "images|animation|video|live2d|3d|game-assets|manga",
+  "file": "REPLACE: relative/path/in/lane",
+  "sha256": "REPLACE: 64-hex of the file bytes",
+  "tier": "P",
+  "source_class": "original-generated|original-authored|third-party-redistribution",
+  "generation": {
+    "tool": "REPLACE or null",
+    "checkpoint": "REPLACE or null",
+    "seed": null,
+    "prompt_record": "REPLACE or null"
+  },
+  "license_basis": "REPLACE: why this may be redistributed, in one line",
+  "license_evidence": "REPLACE: path or URL of the evidence",
+  "fictional_adults_only": true,
+  "real_person_depicted": false,
+  "tags": ["REPLACE: danbooru-vocabulary tags; ntr/netorare facets first-class"],
+  "rating": "general|sensitive|questionable|explicit",
+  "caption": {
+    "characters": [
+      {"state_of_dress": "REPLACE", "visible_body_parts": ["REPLACE"]}
+    ],
+    "camera": "REPLACE",
+    "mood_palette": "REPLACE"
+  },
+  "admitted_by": "REPLACE",
+  "admitted_on": "REPLACE: YYYY-MM-DD"
+}
