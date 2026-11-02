@@ -1,0 +1,36 @@
+{
+  "round": "specs-h-v22 hunt + v23 polish",
+  "owner_directive": "Matt 2026-10-23 17:02 PDT: the suckle set all has good potential - improve them, and yes, hunt more seeds for the union (latch + uneven ahegao eyes + hearts + cumming).",
+  "hunt": {
+    "seeds": [
+      19404,
+      19405,
+      19406,
+      19407,
+      19408,
+      19409
+    ],
+    "x4": "ACT WINNER: tongue on the lifted nipple, other nipple milk-streaming under her fingers, warm palette, open ahegao eyes (split mild), no hearts.",
+    "x6": "MOOD WINNER: hearts everywhere, uneven eyes, mouth buried sucking the raised breast (latch implied, contact hidden).",
+    "x5": "Uneven eyes + hearts + hard spray, but gray-mauve torso palette defect (same as x1) and latch at breast-top -> polish target.",
+    "x7": "REJECT: spraying but not sucking.",
+    "x8": "REJECT: fruit artifact at her mouth.",
+    "x9": "FACE-CLASS: strongest eye split + hearts, no latch (catching drips)."
+  },
+  "polish": {
+    "method": "Direct-ComfyUI img2img (atelier driver failed on its source handling; cloned the batch lineage: LoadImage upload + VAEEncode + KSampler denoise 0.5, Iris, 36 steps).",
+    "x5_polish": {
+      "file": "specs-h-v23/img-h-x5-polish.png",
+      "seed": 19501,
+      "sha256": "3d9deff569e4e77bbab15f5d2df8c234e16389fbc5ada1f4b0323e4a24fcba8a",
+      "gate": "CURED: gray torso -> warm pink skin matching her face; eyes improved to rolled-white + open uneven pair; hearts, spray and mouth contact kept. Closest-to-union frame of the set."
+    },
+    "x1_polish": {
+      "file": "specs-h-v23/img-h-x1-polish.png",
+      "seed": 19502,
+      "sha256": "81a821014a7e2ef517a6f522bb74b6b5540f492835321d695ef837b082159f3d",
+      "gate": "NO MATERIAL CHANGE: palette warmed a touch, eyes still shut, gray cast mostly remains. Recorded as an honest null."
+    }
+  },
+  "status": "STAGED for owner eye gate"
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "specs-h-v30-x8",
+  "parent": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v27-x8/img-h-x8-latch20604.png",
+  "parent_sha256": "d6ca151f8e54a2bc42e60f4f634ecf7d9f89092997215d13ba7ef12b33807def",
+  "checkpoint": "Iris.safetensors",
+  "method": "masked inpaint, mask = left-breast nipple ellipse + corridor + old hand zone, blur 14, grow 8, denoise 1.0, steps 36, cfg 6.0",
+  "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, warm skin, peach skin tone, huge breasts, lactation, milk, (distinct right hand with five separate clearly outlined fingers:1.6), (individual fingers with black outlines between each finger:1.5), fingernails, knuckles, thumb visible, (fingers pinching nipple:1.5), hand gripping nipple in front of breast, milk bursting from pinched nipple, lactation spray, sharp lineart, ahegao, blush, close-up, upper body, indoors",
+  "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, merged hand, hand fused with breast, hand disappearing into chest, invisible hand, missing hand, handless, melted hand, extra hands, third hand, floating hand, detached hand, fused fingers, mitten hand, fist blob, merged fingers, hand melting into breast, indistinct hand",
+  "results": [
+    {
+      "seed": 20901,
+      "status": "OK",
+      "file": "img-h-x8-hand20901.png",
+      "sha256": "091f1508c076f516a13855332cb4109f192fc05380bb364152ae0ead6eddf769",
+      "bytes": 2051696,
+      "elapsed_s": 21.0
+    },
+    {
+      "seed": 20902,
+      "status": "OK",
+      "file": "img-h-x8-hand20902.png",
+      "sha256": "9551a703da7e8535056f63710c2e926c598bf5c6782cb0e077931ab3ff60b86a",
+      "bytes": 2030753,
+      "elapsed_s": 15.0
+    },
+    {
+      "seed": 20903,
+      "status": "OK",
+      "file": "img-h-x8-hand20903.png",
+      "sha256": "9a1b5754da14d95c0aa11d83e4ab7706bb56324e587607038a492c061ea5c017",
+      "bytes": 2042665,
+      "elapsed_s": 15.0
+    },
+    {
+      "seed": 20904,
+      "status": "OK",
+      "file": "img-h-x8-hand20904.png",
+      "sha256": "1fe290a255b90fc6e74f6940ae7aff221c7f1ba28d2be3a1a0d6828193c16cf8",
+      "bytes": 2057573,
+      "elapsed_s": 15.0
+    }
+  ]
+}

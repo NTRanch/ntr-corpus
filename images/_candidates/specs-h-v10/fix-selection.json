@@ -1,0 +1,19 @@
+{
+  "parent_item_id": "img-h-e6",
+  "parent_batch": "specs-h-v4",
+  "parent_sha256": "53efeefd116b5db98fc71031c01cac91d677a2fac5160c28080c3f3e54146c09",
+  "supersedes": "specs-h-v9 img-h-e6-fixed.png (Owner verdict 2026-10-23 13:12: not quite)",
+  "selected_candidate": "img-h-e6-fixed.png",
+  "selected_source_file": "img-h-e6-combo3.png",
+  "method": "combined face+torso masked inpaint from the v4 original, one sampling pass, denoise 0.85, seed 3503; unified prompt (ecstasy face + grip squeeze + clear dome pumps leaking)",
+  "gate_note": "First candidate across 19 total attempts with all four Owner requirements in one frame: (1) pleasure face, no crying - half-lidded ecstatic grin, tongue out, drool; (2) both hands on both breasts pressing/squeezing; (3) clear dome pumps present and full; (4) milk leaking in a stream between the pumps and pooling on the surface below. Residual: the face is ecstatic-feral rather than the rolled-eyes short-circuit of v9 facefix3 / v10 combo2; a face-region-only inpaint on this body is the named next lever if the Owner wants the wilder face transplanted. Also in the round: 4 fresh txt2img variants all lost the v4 composition (rejected), combo1/combo2 lost hands and pumps (rejected). Final acceptance is the Owner eye gate.",
+  "attempts_total_all_rounds": 19,
+  "owner_verdict": "accepted 2026-10-23 13:23 PDT (this version is good); wild-face transplant additionally commissioned as a variant",
+  "wildface_transplant": {
+    "commissioned": "Owner 2026-10-23 13:23 PDT alongside accepting the combo3 version",
+    "variants": "img-h-e6-wildface1..4 (face-only inpaint on combo3)",
+    "pax_pick": "img-h-e6-wildface3.png - heavy-lidded overwhelmed eyes, gaping mouth, drool; body pixel-consistent with the accepted version",
+    "honest_limit": "true rolled-back eyes did not transplant in any of the 4 variants; the inpaint kept re-anchoring to the accepted face structure. wildface3 is the closest step, not the full facefix3 register",
+    "status": "variant staged; Owner chooses between the accepted face and wildface3"
+  }
+}

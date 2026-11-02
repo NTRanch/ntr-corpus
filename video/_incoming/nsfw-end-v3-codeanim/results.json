@@ -1,0 +1,108 @@
+{
+ "pass": "nsfw-end-v3-codeanim",
+ "items": 10,
+ "matched": [
+  "nsfw3-end-cordelia",
+  "nsfw3-end-kaisa",
+  "nsfw3-end-katya",
+  "nsfw3-end-manon",
+  "nsfw3-end-maren",
+  "nsfw3-end-sadie",
+  "nsfw3-end-valentina",
+  "nsfw3-end-vivienne",
+  "nsfw3-end-yuna",
+  "nsfw3-end-zuzana"
+ ],
+ "mismatched": [],
+ "hashes_run1": {
+  "nsfw3-end-cordelia": "562acd3edf9f97347a003b19af850d7724c89c14026262a1e1560cf7477feab0",
+  "nsfw3-end-kaisa": "085d584f8d6adc74465360f515f85f7005189baaa61f751a63e43dce7c45b150",
+  "nsfw3-end-katya": "d03c26c4ccc17520f60dd9093ba7235f26e0685762eaef27764e496c29300740",
+  "nsfw3-end-manon": "381bffde55e012fe44cd1fab924bb1cb4cd5cb6e79dd64be6748e753cca96d7a",
+  "nsfw3-end-maren": "64197807e35a29274c02e594bbf31907e9202d4fd23136d653a150498bbd6b01",
+  "nsfw3-end-sadie": "3dd4f2977ddff672734b16044688a0bb45087093384e8ead77371b9d3f289b12",
+  "nsfw3-end-valentina": "6e9b51b4c8729a7f0c47a0392b457e95d125d503aec6143fee4030a518162d1d",
+  "nsfw3-end-vivienne": "4b2c2684d3635a315bfe140e78ce63cf06c226e6207632f6680d1ad90d35f405",
+  "nsfw3-end-yuna": "e956fbf4a66755209f0e8a1ec804801361a0df19497154729c62b978199a9675",
+  "nsfw3-end-zuzana": "f3761754d9105845c69f0857d76aef6a550b4cc667a32bcd1ee332ea61c93931"
+ },
+ "hashes_run2": {
+  "nsfw3-end-cordelia": "562acd3edf9f97347a003b19af850d7724c89c14026262a1e1560cf7477feab0",
+  "nsfw3-end-kaisa": "085d584f8d6adc74465360f515f85f7005189baaa61f751a63e43dce7c45b150",
+  "nsfw3-end-katya": "d03c26c4ccc17520f60dd9093ba7235f26e0685762eaef27764e496c29300740",
+  "nsfw3-end-manon": "381bffde55e012fe44cd1fab924bb1cb4cd5cb6e79dd64be6748e753cca96d7a",
+  "nsfw3-end-maren": "64197807e35a29274c02e594bbf31907e9202d4fd23136d653a150498bbd6b01",
+  "nsfw3-end-sadie": "3dd4f2977ddff672734b16044688a0bb45087093384e8ead77371b9d3f289b12",
+  "nsfw3-end-valentina": "6e9b51b4c8729a7f0c47a0392b457e95d125d503aec6143fee4030a518162d1d",
+  "nsfw3-end-vivienne": "4b2c2684d3635a315bfe140e78ce63cf06c226e6207632f6680d1ad90d35f405",
+  "nsfw3-end-yuna": "e956fbf4a66755209f0e8a1ec804801361a0df19497154729c62b978199a9675",
+  "nsfw3-end-zuzana": "f3761754d9105845c69f0857d76aef6a550b4cc667a32bcd1ee332ea61c93931"
+ },
+ "wall_s": {
+  "run1": 607,
+  "run2": 506,
+  "total": 1113
+ },
+ "settings": {
+  "animator": "codeanim-src/animate.py",
+  "animator_sha256": "6093ed87d523c6058eaeeb801fab6a1251de07ddf67c81310190c9b06b756e99",
+  "frames": 96,
+  "fps": 16,
+  "encode": "ffmpeg -bitexact -framerate 16 -c:v libx264 -pix_fmt yuv420p -crf 18 -preset medium -threads 1 -movflags +faststart",
+  "env": "PYTHONHASHSEED=0 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1",
+  "breath": {
+   "enabled": true,
+   "period_s": 3.0,
+   "bob_px": 2.5,
+   "scale_amp": 0.007,
+   "anchor": [
+    0.5,
+    1.0
+   ]
+  },
+  "camera": {
+   "enabled": true,
+   "zoom_from": 1.0,
+   "zoom_to": 1.07,
+   "pan": [
+    -0.08,
+    0.04
+   ]
+  },
+  "spring": {
+   "enabled": true,
+   "region": {
+    "cx": 0.5,
+    "cy": 0.42,
+    "rx": 0.17,
+    "ry": 0.11
+   },
+   "stiffness": 25.0,
+   "damping": 3.5,
+   "drive_amp_px": [
+    2.0,
+    6.0
+   ],
+   "drive_period_s": 3.0,
+   "warmup_periods": 12
+  },
+  "seeds": {
+   "nsfw3-end-cordelia": 2750,
+   "nsfw3-end-kaisa": 2763,
+   "nsfw3-end-katya": 2776,
+   "nsfw3-end-manon": 2789,
+   "nsfw3-end-maren": 2802,
+   "nsfw3-end-sadie": 2815,
+   "nsfw3-end-valentina": 2828,
+   "nsfw3-end-vivienne": 2841,
+   "nsfw3-end-yuna": 2854,
+   "nsfw3-end-zuzana": 2867
+  }
+ },
+ "source": {
+  "dir": "~/strobe-portraits/nsfw-v3/",
+  "sidecar": "owner-verdict.json stamped 2026-10-23 22:53 PDT",
+  "precheck": "10/10 SHA-256 match, 0 mismatches, 0 missing"
+ },
+ "status": "STAGED ONLY \u2014 nothing admitted, published, or pushed"
+}

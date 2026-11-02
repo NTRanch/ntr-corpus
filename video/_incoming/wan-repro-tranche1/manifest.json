@@ -1,0 +1,663 @@
+{
+  "tranche": "wan-repro-tranche1",
+  "scope": "PREP ONLY - no training, no clip generation performed in this staging step",
+  "render_spec": {
+    "model": "Wan2.2-I2V-A14B BASE ONLY (Apache-2.0)",
+    "frames": 81,
+    "fps": 16,
+    "width": 544,
+    "height": 800,
+    "seed_scheme": "224101..224124, one fixed seed per still, in tranche order",
+    "note": "Stills are 832x1216 or 1024x1536 portrait; later render step must resize/pad to 544x800 and record its exact transform. No render was run tonight. Sampler recipe above is the proven base recipe from wan-render-base.log; the later render must confirm it still applies per still, not silently change it.",
+    "proven_base_recipe": {
+      "source": "/home/phaedrus/wan_render.py (nolora path) + /home/phaedrus/wan-render-base.log",
+      "prior_base_result": "img-cov-029_wan22_base_00001_.mp4, status success, 760.1s wall, via ComfyUI 127.0.0.1:8188",
+      "sampler": "KSamplerAdvanced two-stage: high-noise model steps 0-10, low-noise model steps 10-20",
+      "steps": 20,
+      "cfg": 3.5,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "shift": 5.0,
+      "lora": "NONE - base only for tranche 1",
+      "nodes": "LoadImage + CLIPLoader(umt5 fp8) + VAELoader(wan_2.1_vae) + 2x UNETLoader(fp8 high/low) + WanImageToVideo + VAEDecode + CreateVideo/SaveVideo mp4 h264"
+    }
+  },
+  "selection_criteria": [
+    "Owner-verdicted Specs-H keepers from keepers.json (ACCEPTED / KEEPER / ACCEPTED-BY-CONTINUATION / PAX-SELECTED), NOT the SUPERSEDED record",
+    "Range across act/expression families: pumps, squirting ahegao, rope+gag, milk-spray, x-ray service, milking close-up, self-suckle, solo, tankard, mug",
+    "No family over 25 percent: S8 family capped at 6/24 by holding out img-h-s8-final-v15 as alternate 1",
+    "Originals never moved; staged files are copies, hash-verified against the registry SHA-256"
+  ],
+  "excluded": [
+    {
+      "keeper_id": "img-h-x7-hand20103-recolor",
+      "reason": "SUPERSEDED in registry; owner-rejected 2026-10-23, record only, do not ship"
+    },
+    {
+      "keeper_id": "img-h-s8-final-v15",
+      "reason": "Held out as alternate 1 to keep S8 family at 6/24; same milking line as v20 final"
+    }
+  ],
+  "alternates_md_candidates_awaiting_verdict": [
+    "specs-h-v11/img-h-e9.png",
+    "specs-h-v11/img-h-s10.png",
+    "specs-h-v22/img-h-x4.png",
+    "specs-h-v29/img-h-x7-hand20805.png",
+    "specs-h-v35/img-h-e12-r1.png",
+    "specs-h-v35/img-h-s8t-final.png"
+  ],
+  "count": 24,
+  "entries": [
+    {
+      "tranche_index": 1,
+      "tranche_id": "t01",
+      "keeper_id": "img-h-e6",
+      "status": "ACCEPTED",
+      "label": "H-E6 pumps, courtesy-beg face",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v4/img-h-e6.png",
+      "staged_file": "stills/t01_img-h-e6.png",
+      "source_sha256": "53efeefd116b5db98fc71031c01cac91d677a2fac5160c28080c3f3e54146c09",
+      "staged_sha256": "53efeefd116b5db98fc71031c01cac91d677a2fac5160c28080c3f3e54146c09",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224101,
+        "prompt": "She squeezes the breast pumps gently, milk leaking in thin streams, her pleading expression trembling softly, hair swaying slightly. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 2,
+      "tranche_id": "t02",
+      "keeper_id": "img-h-e6-combo3",
+      "status": "ACCEPTED",
+      "label": "H-E6 face+torso combo inpaint",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v10/img-h-e6-combo3.png",
+      "staged_file": "stills/t02_img-h-e6-combo3.png",
+      "source_sha256": "433d691181d5443b923d5f328ffb9a2cf895a4a3753831ec4936015f1ae9c505",
+      "staged_sha256": "433d691181d5443b923d5f328ffb9a2cf895a4a3753831ec4936015f1ae9c505",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224102,
+        "prompt": "Her ecstatic face softens and trembles, grip squeezing rhythmically, milk leaking from the clear pump domes. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 3,
+      "tranche_id": "t03",
+      "keeper_id": "img-h-e10-b",
+      "status": "ACCEPTED-BY-CONTINUATION",
+      "label": "H-E10 earnest host, squirting ahegao",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v14/img-h-e10-b.png",
+      "staged_file": "stills/t03_img-h-e10-b.png",
+      "source_sha256": "3c8131d495e09d6c0d2ca5e712232ff48690e5d6b2fbbf17c56f0fd3b792a6e5",
+      "staged_sha256": "3c8131d495e09d6c0d2ca5e712232ff48690e5d6b2fbbf17c56f0fd3b792a6e5",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224103,
+        "prompt": "Her ahegao expression quivers, body trembling, squirt arcing and falling in a continuous gentle spray. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 4,
+      "tranche_id": "t04",
+      "keeper_id": "img-h-e11-r3",
+      "status": "KEEPER",
+      "label": "H-E11 smirk-collapse, heavy rope + ball gag",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v18/img-h-e11-r3.png",
+      "staged_file": "stills/t04_img-h-e11-r3.png",
+      "source_sha256": "724a4f281a5584dd44dcf49187779344ac7558ce4162ee5c1ebc0f86ae93193c",
+      "staged_sha256": "724a4f281a5584dd44dcf49187779344ac7558ce4162ee5c1ebc0f86ae93193c",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224104,
+        "prompt": "Her smirk collapses slowly into surrender, ropes shifting subtly, chest rising and falling with ragged breath. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 5,
+      "tranche_id": "t05",
+      "keeper_id": "img-h-e12-b",
+      "status": "ACCEPTED-BY-CONTINUATION",
+      "label": "H-E12 trait-surfacing, milk-spray orgasm",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v16/img-h-e12-b.png",
+      "staged_file": "stills/t05_img-h-e12-b.png",
+      "source_sha256": "7000fad5aa141475d9d89d7355529621ccf9de83f83a03d4395c5c56405f070e",
+      "staged_sha256": "7000fad5aa141475d9d89d7355529621ccf9de83f83a03d4395c5c56405f070e",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224105,
+        "prompt": "Milk sprays in soft arcs, her uneven eyes fluttering, body trembling at the peak. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 6,
+      "tranche_id": "t06",
+      "keeper_id": "img-h-s2-a",
+      "status": "ACCEPTED",
+      "label": "H-S2 x-ray service A",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v7/img-h-s2-a.png",
+      "staged_file": "stills/t06_img-h-s2-a.png",
+      "source_sha256": "a5b87518335fadccf0d3aeaeadfc94f4e7e2a2ef4c62bff6e1ef0e20f6d7032d",
+      "staged_sha256": "a5b87518335fadccf0d3aeaeadfc94f4e7e2a2ef4c62bff6e1ef0e20f6d7032d",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224106,
+        "prompt": "Slow rhythmic service motion, her body swaying gently, expression warm and steady. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 7,
+      "tranche_id": "t07",
+      "keeper_id": "img-h-s2-b",
+      "status": "ACCEPTED",
+      "label": "H-S2 x-ray service B",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v7/img-h-s2-b.png",
+      "staged_file": "stills/t07_img-h-s2-b.png",
+      "source_sha256": "7bf2f6497b70fe46fb3dbb7ab1d123e111894528500d91a7871b64cd7b74be2f",
+      "staged_sha256": "7bf2f6497b70fe46fb3dbb7ab1d123e111894528500d91a7871b64cd7b74be2f",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224107,
+        "prompt": "Slow rhythmic service motion continues, her breathing deepening, hair swaying slightly. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 8,
+      "tranche_id": "t08",
+      "keeper_id": "img-h-s2-c-fixed",
+      "status": "ACCEPTED",
+      "label": "H-S2 x-ray C, inpaint-fixed",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v8/img-h-s2-c-fixed.png",
+      "staged_file": "stills/t08_img-h-s2-c-fixed.png",
+      "source_sha256": "4140d91f7dcb985f711c2246f910cfd28abbf8f99cc5a9205d1ec11330d7b5ad",
+      "staged_sha256": "4140d91f7dcb985f711c2246f910cfd28abbf8f99cc5a9205d1ec11330d7b5ad",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224108,
+        "prompt": "Slow rhythmic service motion, hips shifting subtly, her expression softening. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 9,
+      "tranche_id": "t09",
+      "keeper_id": "img-h-s8-m1",
+      "status": "PAX-SELECTED",
+      "label": "H-S8 milking close-up, parent of v20 final",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v20/img-h-s8-m1.png",
+      "staged_file": "stills/t09_img-h-s8-m1.png",
+      "source_sha256": "3fbd44f09ef59d2f051a8b82cfd350425452a0922957aa18ca697b2ed36ad764",
+      "staged_sha256": "3fbd44f09ef59d2f051a8b82cfd350425452a0922957aa18ca697b2ed36ad764",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224109,
+        "prompt": "Milk flows in a steady stream, her hands working gently, breasts shifting softly with each motion. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 10,
+      "tranche_id": "t10",
+      "keeper_id": "img-h-s8-final-v20",
+      "status": "PAX-SELECTED",
+      "label": "H-S8 milking close-up final, big royal script",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v20/img-h-s8-final-v20.png",
+      "staged_file": "stills/t10_img-h-s8-final-v20.png",
+      "source_sha256": "b4badbca5b0097724f1afddc5e8f9408dab506afcb52743c44ef149217e292fc",
+      "staged_sha256": "b4badbca5b0097724f1afddc5e8f9408dab506afcb52743c44ef149217e292fc",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224110,
+        "prompt": "Milk flows steadily, her hands working gently, chest rising and falling with soft breath. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 11,
+      "tranche_id": "t11",
+      "keeper_id": "img-h-x9-keeper",
+      "status": "KEEPER",
+      "label": "Self-suckle latch, breast-to-lips (from seed 19409 via v28 inpaint 20703)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v28-x9/img-h-x9-keeper.png",
+      "staged_file": "stills/t11_img-h-x9-keeper.png",
+      "source_sha256": "a7dbdd69293ab6f747792fddd2d520c907128740001aae3da5e4182d6a724ed3",
+      "staged_sha256": "a7dbdd69293ab6f747792fddd2d520c907128740001aae3da5e4182d6a724ed3",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224111,
+        "prompt": "She holds the latch gently, lips and tongue moving subtly, her body swaying with soft breath. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 12,
+      "tranche_id": "t12",
+      "keeper_id": "img-h-x6",
+      "status": "KEEPER",
+      "label": "Self-suckle mood keeper (hearts, latch implied)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v22/img-h-x6.png",
+      "staged_file": "stills/t12_img-h-x6.png",
+      "source_sha256": "89745e5949ee3898ea0b46302653f6a387b769378ae9729b0afdbbe9157a15ed",
+      "staged_sha256": "89745e5949ee3898ea0b46302653f6a387b769378ae9729b0afdbbe9157a15ed",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224112,
+        "prompt": "She leans into the latch dreamily, hair swaying, breath slow and deep. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 13,
+      "tranche_id": "t13",
+      "keeper_id": "img-h-x5-polish",
+      "status": "KEEPER",
+      "label": "Self-suckle x5 polished (uneven eyes, hearts, spray, warm skin)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v23/img-h-x5-polish.png",
+      "staged_file": "stills/t13_img-h-x5-polish.png",
+      "source_sha256": "3d9deff569e4e77bbab15f5d2df8c234e16389fbc5ada1f4b0323e4a24fcba8a",
+      "staged_sha256": "3d9deff569e4e77bbab15f5d2df8c234e16389fbc5ada1f4b0323e4a24fcba8a",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224113,
+        "prompt": "She holds the latch with uneven-eyed bliss, milk spraying softly, hair swaying gently. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 14,
+      "tranche_id": "t14",
+      "keeper_id": "img-h-s7",
+      "status": "KEEPER",
+      "label": "H-S7 soaking solo (v13 redo)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v13/img-h-s7.png",
+      "staged_file": "stills/t14_img-h-s7.png",
+      "source_sha256": "d3e0cc315abe49a3f0adff62dfac8efe1dc64fbf481fb57682681d8475af5504",
+      "staged_sha256": "d3e0cc315abe49a3f0adff62dfac8efe1dc64fbf481fb57682681d8475af5504",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224114,
+        "prompt": "She moves slowly and sensually alone, hips swaying gently, breath deepening. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 15,
+      "tranche_id": "t15",
+      "keeper_id": "img-h-s8-c",
+      "status": "KEEPER",
+      "label": "H-S8 topless silver (v13)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v13/img-h-s8-c.png",
+      "staged_file": "stills/t15_img-h-s8-c.png",
+      "source_sha256": "91207e85388efce616a7cb2a853790885030fdf92e2468a862d33e40407f2e98",
+      "staged_sha256": "91207e85388efce616a7cb2a853790885030fdf92e2468a862d33e40407f2e98",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224115,
+        "prompt": "She sways gently, silver fabric glinting as she shifts, breath slow and steady. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 16,
+      "tranche_id": "t16",
+      "keeper_id": "img-h-s7-v12",
+      "status": "KEEPER",
+      "label": "H-S7 unseen performance, guy removed (v12)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v12/img-h-s7.png",
+      "staged_file": "stills/t16_img-h-s7-v12.png",
+      "source_sha256": "33c710cc1ac37e7383e607baa1fb99e5b2866230c67baaf86a4d22ecac16c8ee",
+      "staged_sha256": "33c710cc1ac37e7383e607baa1fb99e5b2866230c67baaf86a4d22ecac16c8ee",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224116,
+        "prompt": "She performs slowly for an unseen partner, lips moving softly as if narrating, hips swaying gently. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 17,
+      "tranche_id": "t17",
+      "keeper_id": "img-h-s8-v12",
+      "status": "KEEPER",
+      "label": "H-S8 mug 'for master' pseudo-text original (v12, seed 9782)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v12/img-h-s8.png",
+      "staged_file": "stills/t17_img-h-s8-v12.png",
+      "source_sha256": "901fc013bb32834e207b16d23f3f5bac911698ed016737a77e8f45ffaf7818df",
+      "staged_sha256": "901fc013bb32834e207b16d23f3f5bac911698ed016737a77e8f45ffaf7818df",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224117,
+        "prompt": "She holds the mug steadily, chest rising and falling, a slow teasing smile forming. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 18,
+      "tranche_id": "t18",
+      "keeper_id": "img-h-s9-r2",
+      "status": "KEEPER",
+      "label": "H-S9 hostess, both breasts out over apron (v36 expose round)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v36/img-h-s9-r2.png",
+      "staged_file": "stills/t18_img-h-s9-r2.png",
+      "source_sha256": "6889d1411d713094ea37973fba29d3cabb67517fa78353cd6ef95c885e98b5db",
+      "staged_sha256": "6889d1411d713094ea37973fba29d3cabb67517fa78353cd6ef95c885e98b5db",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224118,
+        "prompt": "She moves with slow confident rhythm, hair swaying, expression shifting softly. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 19,
+      "tranche_id": "t19",
+      "keeper_id": "img-h-s11-r1",
+      "status": "KEEPER",
+      "label": "H-S11 squirt-climax, standing profile (v36 expose round)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v36/img-h-s11-r1.png",
+      "staged_file": "stills/t19_img-h-s11-r1.png",
+      "source_sha256": "3baaa9ca2010336cfe6e5b3dd94ac19769d8a372c0b48bed8b2b7027936bb14a",
+      "staged_sha256": "3baaa9ca2010336cfe6e5b3dd94ac19769d8a372c0b48bed8b2b7027936bb14a",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224119,
+        "prompt": "She sways gently, her expression warming, breath slow and deep. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 20,
+      "tranche_id": "t20",
+      "keeper_id": "img-h-s9-r1",
+      "status": "KEEPER",
+      "label": "H-S9 hostess, apron aside, one breast fully exposed (v36)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v36/img-h-s9-r1.png",
+      "staged_file": "stills/t20_img-h-s9-r1.png",
+      "source_sha256": "8168d20cc1a6ce706dc152e93ccc475989520e2a55930b8815d7be3b7c2daf77",
+      "staged_sha256": "8168d20cc1a6ce706dc152e93ccc475989520e2a55930b8815d7be3b7c2daf77",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224120,
+        "prompt": "She moves slowly and deliberately, hips shifting subtly, hair swaying. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 21,
+      "tranche_id": "t21",
+      "keeper_id": "img-h-e10-r2",
+      "status": "KEEPER",
+      "label": "H-E10 stupefied squirt retry r2 (grey-mauve cast, owner keepered as-is)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v35/img-h-e10-r2.png",
+      "staged_file": "stills/t21_img-h-e10-r2.png",
+      "source_sha256": "8cc667a36ccc0735e3aa3645b083f8e0b1e621227c57e5aa5c16289a00de94cb",
+      "staged_sha256": "8cc667a36ccc0735e3aa3645b083f8e0b1e621227c57e5aa5c16289a00de94cb",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224121,
+        "prompt": "Her stupefied ahegao quivers softly, body trembling, squirt arcing gently. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 22,
+      "tranche_id": "t22",
+      "keeper_id": "img-h-e10-r3",
+      "status": "KEEPER",
+      "label": "H-E10 stupefied squirt retry r3 (clean warm skin)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v35/img-h-e10-r3.png",
+      "staged_file": "stills/t22_img-h-e10-r3.png",
+      "source_sha256": "3dd568b11fba54be667ca447e9c6a9b393df2b1021a2a15291c1e4eb1e402474",
+      "staged_sha256": "3dd568b11fba54be667ca447e9c6a9b393df2b1021a2a15291c1e4eb1e402474",
+      "source_size_px": [
+        832,
+        1216
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224122,
+        "prompt": "Her stupefied ahegao trembles, squirt spraying in a soft arc, skin warm and still. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 23,
+      "tranche_id": "t23",
+      "keeper_id": "img-h-s8t-r2",
+      "status": "KEEPER",
+      "label": "H-S8 tankard retry r2 (squeezing over the table)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v35/img-h-s8t-r2.png",
+      "staged_file": "stills/t23_img-h-s8t-r2.png",
+      "source_sha256": "f02b0c63d2f67cc3ab0bb14cf0ee3112b2a9b74cfc0e162edd8e90a282d6a9dd",
+      "staged_sha256": "f02b0c63d2f67cc3ab0bb14cf0ee3112b2a9b74cfc0e162edd8e90a282d6a9dd",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224123,
+        "prompt": "She lifts and holds the tankard steadily, milk sloshing gently, breath slow. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    },
+    {
+      "tranche_index": 24,
+      "tranche_id": "t24",
+      "keeper_id": "img-h-s8t-r3",
+      "status": "KEEPER",
+      "label": "H-S8 tankard retry r3 (milking pumps into barrel)",
+      "source_path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v35/img-h-s8t-r3.png",
+      "staged_file": "stills/t24_img-h-s8t-r3.png",
+      "source_sha256": "e3b32c66b43e6915bea9b1315c85a85377ba9a2b4a24448265a81b191c4c2505",
+      "staged_sha256": "e3b32c66b43e6915bea9b1315c85a85377ba9a2b4a24448265a81b191c4c2505",
+      "source_size_px": [
+        1024,
+        1536
+      ],
+      "render": {
+        "model": "Wan2.2-I2V-A14B (BASE ONLY, no LoRA)",
+        "frames": 81,
+        "fps": 16,
+        "width": 544,
+        "height": 800,
+        "seed": 224124,
+        "prompt": "She holds the tankard with a slow smile, milk shifting softly, chest rising and falling. Camera static, anime cel style preserved, first frame matches the still.",
+        "negative_prompt": "blurry, low quality, deformed hands, extra fingers, distorted face, flicker, morphing, text, watermark"
+      }
+    }
+  ],
+  "unincluded_pools": {
+    "nsfw_end_v3": {
+      "what": "Separate codeanim lane (not Wan stills): 10 character portraits at /home/phaedrus/strobe-portraits/nsfw-v3/nsfw3-end-{vivienne,kaisa,valentina,maren,yuna,katya,manon,zuzana,cordelia,sadie}.png, jobs+clips in /home/phaedrus/ntr-corpus/video/_incoming/nsfw-end-v3-codeanim/",
+      "why_not_in_tranche1": "Different cast (light-show portraits) from the Specs-H corpus keepers, and its codeanim run is active tonight under another lane; swapping any in is a parent decision.",
+      "status_at_prep": "clips-run1 held 1 mp4 at check time (cordelia); run.log shows RUN 1 cordelia OK only."
+    },
+    "admitted_tier_p_top_level": {
+      "what": "117 Tier P images at /home/phaedrus/ntr-corpus/images/img-*.png (e.g. img-cov-*, img-exh-*)",
+      "why_not_in_tranche1": "Tranche 1 was curated from owner-verdicted Specs-H keepers for act/expression range; Tier P top-level images are the alternate pool if the parent wants lane-admitted-only stills."
+    }
+  }
+}

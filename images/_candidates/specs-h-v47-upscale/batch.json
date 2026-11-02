@@ -1,0 +1,55 @@
+{
+  "batch": "specs-h-v47-upscale",
+  "results": [
+    {
+      "checkpoint": "Iris.safetensors",
+      "upscaler": "4x-AnimeSharp.pth",
+      "upscaler_sha256": "e7a7de2dafd7331c1992862bbbcd9e9712a9f9f8e6303f0aaa59b4341d359bab",
+      "upscaler_license": "CC BY-NC-SA 4.0 (internal use only; license gate re-check before any publication use)",
+      "source_type": "owner-directed-edit",
+      "derived_from_sha256": "3c8131d495e09d6c0d2ca5e712232ff48690e5d6b2fbbf17c56f0fd3b792a6e5",
+      "owner_directive": "Owner 2026-10-24: higher definition; AnimeSharp upscaler route approved after v45/v46 latent routes failed the Pax gate with chromatic fringing",
+      "prompt_id": "6f660e84-4ca3-44d6-b1d3-26a752035ba4",
+      "item_id": "img-h-e10-b-hd",
+      "variant": "a",
+      "status": "OK",
+      "file": "img-h-e10-b-hd-a.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v47-upscale/img-h-e10-b-hd-a.png",
+      "sha256": "11fea16bf384d69ddfeee25d6a7ae6ed0ce5cc35efb1fe0f865788e83624ef08",
+      "bytes": 1881943,
+      "width": 1024,
+      "height": 1536,
+      "method": "4x-AnimeSharp model upscale, Lanczos to 1024x1536; no diffusion pass"
+    },
+    {
+      "item_id": "img-h-e10-b-hd",
+      "variant": "b",
+      "status": "OK",
+      "file": "img-h-e10-b-hd-b.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v47-upscale/img-h-e10-b-hd-b.png",
+      "sha256": "9d6a484bb8f9d41f822f19b446bb4401f36dd157a0625bae38778043eaa8d735",
+      "bytes": 4103328,
+      "recovery_note": "history fetch missed node 7 output; file recovered from ComfyUI output dir and hash-recorded here"
+    },
+    {
+      "checkpoint": "Iris.safetensors",
+      "upscaler": "4x-AnimeSharp.pth",
+      "upscaler_sha256": "e7a7de2dafd7331c1992862bbbcd9e9712a9f9f8e6303f0aaa59b4341d359bab",
+      "upscaler_license": "CC BY-NC-SA 4.0 (internal use only; license gate re-check before any publication use)",
+      "source_type": "owner-directed-edit",
+      "derived_from_sha256": "3c8131d495e09d6c0d2ca5e712232ff48690e5d6b2fbbf17c56f0fd3b792a6e5",
+      "owner_directive": "Owner 2026-10-24: higher definition; AnimeSharp upscaler route approved after v45/v46 latent routes failed the Pax gate with chromatic fringing",
+      "prompt_id": "6f660e84-4ca3-44d6-b1d3-26a752035ba4",
+      "item_id": "img-h-e10-b-hd",
+      "variant": "c",
+      "status": "OK",
+      "file": "img-h-e10-b-hd-c.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v47-upscale/img-h-e10-b-hd-c.png",
+      "sha256": "7a376a6d1df8d045192602cadbb1a0a6fbd84a7c45d21ffab83de0b31dd4e7e1",
+      "bytes": 2177387,
+      "width": 1024,
+      "height": 1536,
+      "method": "variant a + light img2img polish (denoise 0.18, 30 steps, cfg 5.5, original prompt)"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "batch": "specs-h-v25-x8",
+  "parent": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v22/img-h-x8.png",
+  "parent_sha256": "7c4947c6832131f43ee42e43984cdc7348891b316399657d613a6bece47c0b3f",
+  "checkpoint": "Iris.safetensors",
+  "method": "masked inpaint mouth+breast-top ellipse, blur 14, grow 8, denoise 1.0, steps 36, cfg 6.0",
+  "mask_ellipse": [
+    520,
+    580,
+    230,
+    215
+  ],
+  "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, warm skin, peach skin tone, huge breasts, (breast lifted up to mouth:1.3), (nipple in mouth:1.6), (lips wrapped around nipple:1.5), (mouth covering nipple, sucking own nipple:1.5), (areola partly visible around her lips:1.4), breast sucking, latched on, lactation, milk, milk dripping from lips, ahegao, heart-shaped pupils, rolling eyes, drooling, floating hearts, orgasm, blush, trembling, close-up, upper body, indoors",
+  "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, fruit, peach, strawberry, cherry, leaf, green object, food, eating, tongue out, tongue sticking out, empty mouth, open mouth empty, licking air, lollipop, candy",
+  "results": [
+    {
+      "item": "x8",
+      "seed": 20301,
+      "status": "OK",
+      "file": "img-h-x8-latch20301.png",
+      "sha256": "660aee6dc95917f50be8fc8f59f24d08c54bbc5d67b3d436aa94213c8d982764",
+      "bytes": 1944361,
+      "elapsed_s": 15.0
+    },
+    {
+      "item": "x8",
+      "seed": 20302,
+      "status": "OK",
+      "file": "img-h-x8-latch20302.png",
+      "sha256": "1aafc88fd473f5655bf8b5d64252a17e955cc3549555c59797f78e3f5a5bc475",
+      "bytes": 1957892,
+      "elapsed_s": 12.1
+    },
+    {
+      "item": "x8",
+      "seed": 20303,
+      "status": "OK",
+      "file": "img-h-x8-latch20303.png",
+      "sha256": "94788b352e2531d2c4371c6b91e8e680a3d619ff10f058ae0087ebb75380a5d5",
+      "bytes": 1954832,
+      "elapsed_s": 12.1
+    },
+    {
+      "item": "x8",
+      "seed": 20304,
+      "status": "OK",
+      "file": "img-h-x8-latch20304.png",
+      "sha256": "1dab4bcc51dd0e7dee2a25a739ef4a98cbdea8f90aa0243a2dd4afc285bf8741",
+      "bytes": 1945687,
+      "elapsed_s": 12.1
+    }
+  ]
+}

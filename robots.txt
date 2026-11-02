@@ -1,0 +1,20 @@
+# Advisory only: crawlers that honour robots.txt stay out.
+# This file cannot and does not prevent scraping; access control
+# (private repo / gated dataset) is the real protection.
+User-agent: *
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /

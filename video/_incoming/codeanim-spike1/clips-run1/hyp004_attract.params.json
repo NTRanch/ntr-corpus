@@ -1,0 +1,42 @@
+{
+ "frames": 96,
+ "fps": 16,
+ "input": "/home/phaedrus/ntr-corpus/images/img-hyp-004.png",
+ "seed": 4404,
+ "breath": {
+  "enabled": true,
+  "period_s": 3.0,
+  "bob_px": 3.0,
+  "scale_amp": 0.008,
+  "anchor": [
+   0.5,
+   1.0
+  ]
+ },
+ "camera": {
+  "enabled": true,
+  "zoom_from": 1.0,
+  "zoom_to": 1.08,
+  "pan": [
+   0.0,
+   -0.08
+  ]
+ },
+ "spring": {
+  "enabled": true,
+  "region": {
+   "cx": 0.5,
+   "cy": 0.4,
+   "rx": 0.22,
+   "ry": 0.1
+  },
+  "stiffness": 25.0,
+  "damping": 3.5,
+  "drive_amp_px": [
+   1.5,
+   5.0
+  ],
+  "drive_period_s": 3.0,
+  "warmup_periods": 12
+ }
+}

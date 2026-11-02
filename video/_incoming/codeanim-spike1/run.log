@@ -1,0 +1,27 @@
+=== RUN 1 ===
+=== RUN 2 ===
+DETERMINISM: PASS — all outputs byte-identical across runs
+6093ed87d523c6058eaeeb801fab6a1251de07ddf67c81310190c9b06b756e99  /home/phaedrus/ntr-corpus/video/_incoming/codeanim-spike1/animate.py
+=== DONE ===
+total 16396
+drwxr-xr-x 1 phaedrus phaedrus     870 Oct 22 21:45 .
+drwxr-xr-x 1 phaedrus phaedrus     210 Oct 22 21:45 ..
+-rw-r--r-- 1 phaedrus phaedrus 1947026 Oct 22 21:45 cov014_attract.mp4
+-rw-r----- 1 phaedrus phaedrus     582 Oct 22 21:45 cov014_attract.params.json
+-rw-r--r-- 1 phaedrus phaedrus     259 Oct 22 21:45 cov014_attract.results.json
+-rw-r--r-- 1 phaedrus phaedrus 8784056 Oct 22 21:45 cov029_attract.gif
+-rw-r--r-- 1 phaedrus phaedrus 1366677 Oct 22 21:45 cov029_attract.mp4
+-rw-r----- 1 phaedrus phaedrus     581 Oct 22 21:45 cov029_attract.params.json
+-rw-r--r-- 1 phaedrus phaedrus     259 Oct 22 21:45 cov029_attract.results.json
+-rw-r--r-- 1 phaedrus phaedrus 1135648 Oct 22 21:45 cov029_breath.mp4
+-rw-r----- 1 phaedrus phaedrus     305 Oct 22 21:45 cov029_breath.params.json
+-rw-r--r-- 1 phaedrus phaedrus     259 Oct 22 21:45 cov029_breath.results.json
+-rw-r--r-- 1 phaedrus phaedrus 1221926 Oct 22 21:45 cov029_camera.mp4
+-rw-r----- 1 phaedrus phaedrus     285 Oct 22 21:45 cov029_camera.params.json
+-rw-r--r-- 1 phaedrus phaedrus     256 Oct 22 21:45 cov029_camera.results.json
+-rw-r--r-- 1 phaedrus phaedrus  322565 Oct 22 21:45 cov029_spring.mp4
+-rw-r----- 1 phaedrus phaedrus     419 Oct 22 21:45 cov029_spring.params.json
+-rw-r--r-- 1 phaedrus phaedrus     258 Oct 22 21:45 cov029_spring.results.json
+-rw-r--r-- 1 phaedrus phaedrus 1945904 Oct 22 21:45 hyp004_attract.mp4
+-rw-r----- 1 phaedrus phaedrus     578 Oct 22 21:45 hyp004_attract.params.json
+-rw-r--r-- 1 phaedrus phaedrus     259 Oct 22 21:45 hyp004_attract.results.json

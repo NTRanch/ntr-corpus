@@ -1,0 +1,13 @@
+{
+ "frames": 96,
+ "fps": 16.0,
+ "size": [
+  1024,
+  1920
+ ],
+ "render_wall_s": 65.115,
+ "spring_seam_residual_px": 0.0,
+ "loop_seam_meanabsdiff": 1.0992,
+ "median_interframe_meanabsdiff": 5.0354,
+ "job": "/home/phaedrus/ntr-corpus/video/_incoming/nsfw-end-v3-codeanim/jobs/nsfw3-end-maren.json"
+}

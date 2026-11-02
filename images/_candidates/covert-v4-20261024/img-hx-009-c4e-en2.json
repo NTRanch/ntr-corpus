@@ -1,0 +1,9 @@
+{
+ "derived_from": "img-hx-009-c4e-en.png",
+ "base": "clean-skin inpaint base (enbase2/enbase4) from pass 1",
+ "method": "PIL brush-marker composite pass 2: per-letter jitter + baseline arc, dry-brush alpha texture, multiply ink seated into skin shading, dark-pixel suppression over rope/hair; Comic Neue Bold Italic",
+ "owner_directive": "Owner 2026-10-24 21:55: body writing stylized like the pseudo-kanji, not a text box (pass 1 read as pasted typed text)",
+ "file": "img-hx-009-c4e-en2.png",
+ "sha256": "2e5ac7c13e7353002bc24ed9b07535b90ab04dd0ea3ef32ba7676bd1b7a5253e",
+ "bytes": 1389742
+}

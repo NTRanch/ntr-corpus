@@ -1,0 +1,32 @@
+{
+  "round": "specs-h-v16-v18 selections (sheet v19)",
+  "owner_directives": [
+    "Matt 2026-10-23 15:55 PDT: middle top (E12) eyes at different levels + squirting; top right (E11) the uneven orgasm face.",
+    "Matt 2026-10-23 15:56 PDT: S8 mug text BIGGER + the mug an old-timey viking style mug.",
+    "Matt 2026-10-23 15:58 PDT: top right (E11) way more ropes, tightly bound, constricting even her massive tits."
+  ],
+  "e12_selection": {
+    "file": "specs-h-v16/img-h-e12-b.png",
+    "seed": 19811,
+    "sha256": "7000fad5aa141475d9d89d7355529621ccf9de83f83a03d4395c5c56405f070e",
+    "why": "Only seed of three with BOTH legs: a legible squirt between her legs AND uneven eyes (one droopy half-lid, one narrow slit), milk spurting from both nipples, feral fanged face kept. 9811 = symmetric roll-up + spray chaos, no distinct squirt; 29811 = starkest eye split but the bowl blocks any squirt. Eye asymmetry in the winner is real but mild - flagged to owner."
+  },
+  "e11_selection": {
+    "file": "specs-h-v18/img-h-e11-r3.png",
+    "seed": 18403,
+    "sha256": "724a4f281a5584dd44dcf49187779344ac7558ce4162ee5c1ebc0f86ae93193c",
+    "why": "Bare-skin heavy rope: chest harness + double underbust cinch bands with her breasts bulging between the ropes (constriction reads), black ball gag + drool, uneven rolled orgasm eyes, heavy blush. 18401/18402/18404 all bound her OVER a shirt or bikini top. Supersedes the v16 E11 pick (19810)."
+  },
+  "s8_tankard_selection": {
+    "file": "specs-h-v17/img-h-s8-v3.png",
+    "seed": 17303,
+    "sha256": "3dfa01e829871b0faeacae9c449fc6070c7b580e470a64be72b7c18c246243f0",
+    "why": "Barmaid scene kept the H-S8 legs: pink hair, bare breasts, BOTH streams pouring into a wooden iron-banded viking tankard on the tavern table. 17301 had the biggest tankard but she was turtleneck-clothed with a comedy spurt through the sweater; 17302 put the act off-frame."
+  },
+  "s8_tankard_final": {
+    "file": "specs-h-v17/img-h-s8-final-v17.png",
+    "sha256": "4e80468392e7bae818c7712933f21d2ec6de436bf67127b6fbfd47eb6f8e7075",
+    "method": "BIG lettering pass 3: Great Vibes royal script at 146px wide (vs 128 on the ceramic mug), vivid royal purple (126,58,196) at 96% for legibility on wood, cylinder warp a=0.65, centered (433,760) between the tankard's iron bands. Placement took 3 tries (band geometry measured from crops). Parent untouched."
+  },
+  "status": "STAGED for owner eye gate"
+}

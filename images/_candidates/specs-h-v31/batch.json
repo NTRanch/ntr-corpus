@@ -1,0 +1,51 @@
+{
+  "batch": "specs-h-v31",
+  "parent": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v26/img-h-x7-hand20103-recolor.png",
+  "parent_sha256": "bc60b91e4f8d2f24ae1ef4e685c1dbb60cd29e93496251978b19df33b9d584b6",
+  "checkpoint": "Iris.safetensors",
+  "method": "masked inpaint, mask = left-breast nipple ellipse + corridor + old hand zone, blur 14, grow 8, denoise 1.0, steps 36, cfg 6.0",
+  "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, warm skin, peach skin tone, huge breasts, two breasts only, lactation, milk, (forearm connecting the pinching hand to her arm:1.4), (other hand gripping the underside of a breast, fingers visible under the breast:1.4), arms crossing below her breasts, same warm peach skin tone on hands and arms, ahegao, blush, close-up, upper body, indoors",
+  "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, merged hand, hand fused with breast, hand disappearing into chest, invisible hand, missing hand, handless, melted hand, extra hands, third hand, floating hand, detached hand, extra breasts, four breasts, multiple breasts, second pair of breasts, breasts on abdomen, extra nipples, furniture, table, desk",
+  "results": [
+    {
+      "seed": 21001,
+      "status": "OK",
+      "file": "img-h-x7-hand21001.png",
+      "sha256": "6a7e4841c03743a04f3d96716d9eb87589840da15ea8149ec2dce5b3e1a14695",
+      "bytes": 1891175,
+      "elapsed_s": 21.0
+    },
+    {
+      "seed": 21002,
+      "status": "OK",
+      "file": "img-h-x7-hand21002.png",
+      "sha256": "31fd4d2abb893b0e508d370ed1e705f113ac4cbd8e3cf67f801465ee5b849bf1",
+      "bytes": 1888180,
+      "elapsed_s": 12.1
+    },
+    {
+      "seed": 21003,
+      "status": "OK",
+      "file": "img-h-x7-hand21003.png",
+      "sha256": "d3498f7ab6ba727970405fe79401d37705fde925c10f35418ef4e66c865282dd",
+      "bytes": 1873826,
+      "elapsed_s": 12.2
+    },
+    {
+      "seed": 21004,
+      "status": "OK",
+      "file": "img-h-x7-hand21004.png",
+      "sha256": "b75b10969f220b60f5c6491a7643f9cc1a6886eaf930f3d25867cd5ad66cd239",
+      "bytes": 1864262,
+      "elapsed_s": 15.0
+    },
+    {
+      "seed": 21005,
+      "status": "OK",
+      "file": "img-h-x7-hand21005.png",
+      "sha256": "2b45601fdc3c152e2e1d4b853095b1de3bc5f653198ca0d498fd59921b27ab05",
+      "bytes": 1873718,
+      "elapsed_s": 15.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "round": "specs-h-v14",
+  "owner_directives": "Matt 2026-10-23 15:36 PDT: (1) top left redone as stupefied uneven-eye squirting orgasm; (2) bottom right gets a different hair color than bottom middle (silver); (3) the 'for master' mug text must look printed on the mug, not pasted on.",
+  "e10_selection": {
+    "file": "img-h-e10-b.png",
+    "seed": 19809,
+    "sha256": "3c8131d495e09d6c0d2ca5e712232ff48690e5d6b2fbbf17c56f0fd3b792a6e5",
+    "why": "Recipe #13 asymmetric-eyes hunt over 3 seeds: b is the one with a genuinely uneven pair (one eye rolled back to white, one half-open) plus stupefied drooling read and a legible squirt; a's eyes were near-symmetric, c's were both squeezed shut."
+  },
+  "s8_selection": {
+    "file": "img-h-s8-p3.png",
+    "seed": 17203,
+    "sha256": "a613896f0861910e862c421bc5cdda81a7152a753c9bc1abb8ca17edd2344123",
+    "why": "Pink hair per directive (bottom middle S8-c is silver). Of 3 pink seeds, p3 has the clearest milk-into-mug pour and the largest front-facing mug."
+  },
+  "final_file": "img-h-s8-final-v14.png",
+  "final_sha256": "9652f2632cd29f5222b19a8eafce33be243b0c7d61dae4d5a934c8d4cb5e88e6",
+  "lettering_method": "Printed-look composite v2: text rendered at 4x (DejaVuSans-Bold 21px at 1x, 124px wide), cylinder-warped (asin edge-squeeze, 2.2px edge sag), blurred 0.7px, ink (66,58,54) at 86% alpha, centered (458,1072) on the mug front; the milk drip that runs down the mug was then restored OVER the print from the parent pixels so the layering reads physical. Parent PNG untouched.",
+  "status": "STAGED for owner eye gate",
+  "lettering_v15": {
+    "directive": "Matt 2026-10-23 15:54 PDT: mug text styled in royal script and royal purple",
+    "final_file": "img-h-s8-final-v15.png",
+    "final_sha256": "7bfa1cdc5364509a62f44e1175884d0bb2e9ca6590084e98ad26e2c06409df78",
+    "method": "Great Vibes (Google Fonts, OFL) calligraphic script, ink (80,28,132) royal purple at 97% alpha, same cylinder warp + 0.5px blur + milk-drip-over-print restoration as v14 lettering. Supersedes the DejaVu bold v14 print; parent img-h-s8-p3.png untouched."
+  }
+}

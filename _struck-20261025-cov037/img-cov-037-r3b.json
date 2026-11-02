@@ -1,0 +1,50 @@
+{
+  "asset_id": "img-cov-037-r3b",
+  "sha256": "491a061742937f8847d9908513489f1f340d491f6f1560bb5f8afb9a647cb0fa",
+  "path": "/home/phaedrus/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-cov-037-r3b.png",
+  "recipe_hash": "4038de3539c7339a6fa3f030dcc8fa621ff06c79ddf6717c788b9f295fe13da3",
+  "runner": "specs-queue-runner-v1",
+  "recipe": {
+    "template_version": "corpus-factory-v1",
+    "checkpoint": {
+      "name": "Iris.safetensors",
+      "sha256": "536863e9f0c13b0ce834e2f8a19ada425ee4f722c0ad3d0051ec7e6adaa8156c"
+    },
+    "loras": [],
+    "seed": 33132,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 28,
+    "cfg": 5.5,
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, paizuri, between breasts, huge breasts, brown_hair, long_hair, bedroom, looking up, upturned eyes, eager expression, excited, aroused, pleasure, open mouth, smile, blush, tongue out slightly",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+  },
+  "content": {
+    "type_code": "Specs-H",
+    "cluster": "eye-pass-retry-directed",
+    "character_id": null,
+    "archetype": null,
+    "state": null,
+    "expression": null,
+    "framing": null,
+    "costume": null,
+    "setting": null,
+    "canon_invariants": []
+  },
+  "provenance": {
+    "source_type": "abstracted-type",
+    "adult_basis": "original fictional adult woman; mature female tags in prompt; no real person",
+    "license_status": "internal-only",
+    "license_alert": false
+  },
+  "lifecycle": {
+    "state": "candidate",
+    "owner_verdict": null,
+    "owner_verdict_at": null,
+    "pax_gate": "queue-runner v1; not admitted"
+  },
+  "derivatives": {},
+  "rating_declared": "explicit"
+}

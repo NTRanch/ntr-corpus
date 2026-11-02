@@ -1,0 +1,42 @@
+{
+ "frames": 96,
+ "fps": 16,
+ "input": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-s6/img-h-s6-06.png",
+ "seed": 2269,
+ "breath": {
+  "enabled": true,
+  "period_s": 3.0,
+  "bob_px": 2.5,
+  "scale_amp": 0.007,
+  "anchor": [
+   0.5,
+   1.0
+  ]
+ },
+ "camera": {
+  "enabled": true,
+  "zoom_from": 1.0,
+  "zoom_to": 1.07,
+  "pan": [
+   -0.08,
+   0.04
+  ]
+ },
+ "spring": {
+  "enabled": true,
+  "region": {
+   "cx": 0.5,
+   "cy": 0.42,
+   "rx": 0.17,
+   "ry": 0.11
+  },
+  "stiffness": 25.0,
+  "damping": 3.5,
+  "drive_amp_px": [
+   2.0,
+   6.0
+  ],
+  "drive_period_s": 3.0,
+  "warmup_periods": 12
+ }
+}

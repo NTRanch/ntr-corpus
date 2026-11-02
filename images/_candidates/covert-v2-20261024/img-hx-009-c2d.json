@@ -1,0 +1,50 @@
+{
+  "asset_id": "img-hx-009-c2d",
+  "sha256": "19c90fe7d1dbdabc0d6be473742409396ed1e63600f6ace451f7aea89c679c8b",
+  "path": "/home/phaedrus/ntr-corpus/images/_candidates/covert-v2-20261024/img-hx-009-c2d.png",
+  "recipe_hash": "8237a5ac7c8c00468c79c1e4363a0be1fe2d3cf7ef8c32a9522143d6d3dcb0b6",
+  "runner": "specs-queue-runner-v1",
+  "recipe": {
+    "template_version": "corpus-factory-v1",
+    "checkpoint": {
+      "name": "Iris.safetensors",
+      "sha256": "536863e9f0c13b0ce834e2f8a19ada425ee4f722c0ad3d0051ec7e6adaa8156c"
+    },
+    "loras": [],
+    "seed": 34104,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 28,
+    "cfg": 5.5,
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long brown hair, office lady, office, indoors, open blouse, blouse open revealing a rope harness worn under her clothes, pencil skirt, rope bondage, shibari, tight rope, rope digging into skin, rope marks on skin, bound breasts, nipple clamps, chain between nipple clamps, body writing, writing on skin, marker writing across her breasts and stomach, aroused, blush, eager smile, enjoying, trembling with pleasure",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+  },
+  "content": {
+    "type_code": "Specs-H",
+    "cluster": "covert-v2-20261024",
+    "character_id": null,
+    "archetype": null,
+    "state": null,
+    "expression": null,
+    "framing": null,
+    "costume": null,
+    "setting": null,
+    "canon_invariants": []
+  },
+  "provenance": {
+    "source_type": "abstracted-type",
+    "adult_basis": "original fictional adult woman; mature female tags in prompt; no real person",
+    "license_status": "internal-only",
+    "license_alert": false
+  },
+  "lifecycle": {
+    "state": "candidate",
+    "owner_verdict": null,
+    "owner_verdict_at": null,
+    "pax_gate": "queue-runner v1; not admitted"
+  },
+  "derivatives": {},
+  "rating_declared": "explicit"
+}

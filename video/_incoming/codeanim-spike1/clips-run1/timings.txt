@@ -1,0 +1,6 @@
+cov014_attract render_s=24 encode_s=5
+cov029_attract render_s=21 encode_s=5
+cov029_breath render_s=19 encode_s=4
+cov029_camera render_s=21 encode_s=4
+cov029_spring render_s=20 encode_s=2
+hyp004_attract render_s=21 encode_s=5

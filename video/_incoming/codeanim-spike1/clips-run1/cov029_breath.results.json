@@ -1,0 +1,13 @@
+{
+ "frames": 96,
+ "fps": 16.0,
+ "size": [
+  832,
+  1216
+ ],
+ "render_wall_s": 19.434,
+ "spring_seam_residual_px": null,
+ "loop_seam_meanabsdiff": 1.0388,
+ "median_interframe_meanabsdiff": 1.7463,
+ "job": "/home/phaedrus/codeanim-src/jobs/cov029_breath.json"
+}

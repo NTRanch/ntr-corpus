@@ -1,0 +1,50 @@
+{
+  "asset_id": "img-h-e12-v43-v6",
+  "sha256": "1af632bea148583593d67440e0fded55bd4baee247f735cc775477faf666bdf9",
+  "path": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v43-e12/img-h-e12-v43-v6.png",
+  "recipe_hash": "4b69166891cb58b5ca4b825f1af3699ba181a712ef71c5a0990f0dd648f24123",
+  "runner": "specs-queue-runner-v1",
+  "recipe": {
+    "template_version": "corpus-factory-v1",
+    "checkpoint": {
+      "name": "Iris.safetensors",
+      "sha256": "536863e9f0c13b0ce834e2f8a19ada425ee4f722c0ad3d0051ec7e6adaa8156c"
+    },
+    "loras": [],
+    "seed": 31906,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 36,
+    "cfg": 5.5,
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, mature female, tall female, cow girl, cow ears, cow horns, cow tail, bell collar, long brown hair, huge breasts, lactation, spraying milk, milk spray, orgasm, female ejaculation, squirting, trembling body, drooling, tongue out, fangs, feral lewd face, ahegao, (strongly uneven eyes:1.45), face and torso both visible, cowboy shot, indoors, barn loft, lying back on hay with back arched, (cow ears splayed flat against the hay:1.3), tail curled beside her, (one eye heart-pupil and open:1.3), (one eye rolled back to white:1.3), mouth open in a moo-like cry with no text, milk pooling on her stomach",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+  },
+  "content": {
+    "type_code": "Specs-H",
+    "cluster": "expr-trait-surfacing-v43",
+    "character_id": null,
+    "archetype": null,
+    "state": null,
+    "expression": null,
+    "framing": null,
+    "costume": null,
+    "setting": null,
+    "canon_invariants": []
+  },
+  "provenance": {
+    "source_type": "abstracted-type",
+    "adult_basis": "original fictional adult woman; mature female tags in prompt; no real person",
+    "license_status": "internal-only",
+    "license_alert": false
+  },
+  "lifecycle": {
+    "state": "candidate",
+    "owner_verdict": null,
+    "owner_verdict_at": null,
+    "pax_gate": "queue-runner v1; not admitted"
+  },
+  "derivatives": {},
+  "rating_declared": "explicit"
+}

@@ -1,0 +1,26 @@
+{
+  "item": "img-h-s8",
+  "owner_directive": "Matt 2026-10-23 15:15 PDT, on the lettered s8-b delivery: 'that needs a lot of cleanup'",
+  "problem": "The seed-14782 generation (img-h-s8-b) carried garbled pseudo-text bands (pink top-left, green across the bottom) woven through the mug base, table edge, and dress; the first lettering sat over them.",
+  "attempts": [
+    {
+      "route": "masked inpaint round 1 (seeds 15101-15103)",
+      "result": "top-left text removed but left a flat patch with a hard mask edge; bottom band mostly removed except a glyph fragment that sat INSIDE the mug-protection rectangle (x~280-520, y~1095-1160)"
+    },
+    {
+      "route": "masked inpaint round 2 (seeds 15201-15202, from 15101)",
+      "result": "wall corner blended well; bottom fragment unchanged (same protection-rectangle cause)"
+    },
+    {
+      "route": "masked inpaint round 3 (seeds 15301-15302, fragment-targeted mask)",
+      "result": "FAILED - mask crossed the mug geometry; both variants mangled the mug base into a double-mug/saucer shape and glyph bits regrew at the mask boundary. Rejected."
+    }
+  ],
+  "resolution": "Fresh txt2img of the same composition with the standard negative (text banned) and a blank-mug prompt, 4 seeds (16101-16104). Winner f3/seed 16103: both hands milking herself, streams arcing into two mugs, happily aroused face, zero pseudo-text anywhere. Lettering re-applied deterministically.",
+  "final_file": "img-h-s8-final.png",
+  "final_sha256": "69dce285cf73fd6216be5ddf378cde7c0cd1752db6d86ec2600fe2808958a093",
+  "final_parent_file": "img-h-s8-f3.png (in specs-h-v12-s8fresh/)",
+  "final_parent_sha256": "f303306235c277b377546fe95f8835f9ef6d220d526104e64b41187b4fddc149",
+  "lettering": "PIL DejaVuSans-Bold 25px, centered x=180, y=1168, on the left mug front; disclosed post-edit as before",
+  "status": "STAGED for owner eye gate; supersedes img-h-s8-lettered.png (seed-14782 lineage kept on disk)"
+}

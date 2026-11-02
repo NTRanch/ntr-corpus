@@ -1,0 +1,37 @@
+{
+  "item_id": "img-hx-009-c2d",
+  "status": "OK",
+  "file": "img-hx-009-c2d-enbase.png",
+  "output": "/home/phaedrus/ntr-corpus/images/_candidates/covert-v2-20261024/img-hx-009-c2d-enbase.png",
+  "sha256": "39ea3867219e6af9b051e70df6934d59ee8a01c6dfc0ff33ec96998b74bdf3fb",
+  "bytes": 1397992,
+  "method": "native-resolution masked inpaint (VAEEncodeForInpaint, grow_mask_by=20), stage 1 of the English body-writing redo",
+  "checkpoint": "Iris.safetensors",
+  "seed": 34203,
+  "steps": 40,
+  "cfg": 5.5,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "denoise": 1.0,
+  "mask_ellipses": [
+    [
+      480,
+      330,
+      720,
+      580
+    ],
+    [
+      640,
+      330,
+      832,
+      580
+    ]
+  ],
+  "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long brown hair, office lady, office, indoors, open blouse, blouse open revealing a rope harness worn under her clothes, pencil skirt, arms bound behind back, bare breasts, smooth skin, rope bondage, shibari, tight rope, rope digging into skin, rope marks on skin, bound breasts, nipple clamps, chain between nipple clamps, aroused, blush, eager smile, enjoying, trembling with pleasure",
+  "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, body writing, writing on skin, letters, kanji, markings, tattoo",
+  "source_type": "owner-directed-edit",
+  "derived_from": "img-hx-009-c2d.png",
+  "derived_from_sha256": "19c90fe7d1dbdabc0d6be473742409396ed1e63600f6ace451f7aea89c679c8b",
+  "owner_directive": "Owner 2026-10-24: redo the body writing so it is English; stage 1 inpaint glyph writing to clean skin, stage 2 PIL composite adds English marker text",
+  "prompt_id": "5ea7a272-a029-44e4-96a4-442f26ad52f5"
+}

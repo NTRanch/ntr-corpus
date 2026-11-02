@@ -1,0 +1,10 @@
+nsfw3-end-cordelia render_s=49 encode_s=8
+nsfw3-end-kaisa render_s=41 encode_s=11
+nsfw3-end-katya render_s=44 encode_s=7
+nsfw3-end-manon render_s=40 encode_s=8
+nsfw3-end-maren render_s=51 encode_s=12
+nsfw3-end-sadie render_s=40 encode_s=6
+nsfw3-end-valentina render_s=42 encode_s=7
+nsfw3-end-vivienne render_s=38 encode_s=7
+nsfw3-end-yuna render_s=42 encode_s=7
+nsfw3-end-zuzana render_s=38 encode_s=7

@@ -1,0 +1,35 @@
+{
+  "batch": "specs-h-v36-color",
+  "parent": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v11/img-h-s12-b.png",
+  "parent_sha256": "43cf333957ba0e9d07d2910d1bb885730f04a1843f1b9d42ca802bf78b63796f",
+  "checkpoint": "Iris.safetensors",
+  "method": "masked inpaint, mask = left-breast nipple ellipse + corridor + old hand zone, blur 14, grow 8, denoise 1.0, steps 36, cfg 6.0",
+  "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, cow ears, horns, bell collar, long teal hair, huge breasts, swelling breasts, leaking milk, lactation, trembling, ahegao, bedroom, indoors, (warm peach skin tone:1.4), (colorful:1.3), vibrant colors, teal-green dress, flushed skin, blush",
+  "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, merged hand, hand fused with breast, hand disappearing into chest, invisible hand, missing hand, handless, melted hand, extra hands, third hand, floating hand, detached hand, greyscale, monochrome, desaturated, grey skin, gray skin, grey dress, colorless, gripping, hand on breast, forearm, extra breasts, four breasts, multiple breasts, second pair of breasts, breasts on abdomen, extra nipples, furniture, table, desk",
+  "results": [
+    {
+      "seed": 21531,
+      "status": "OK",
+      "file": "img-h-s12b-color21531.png",
+      "sha256": "691cdf9182d57a8cdbed7c9e7c8f7fa563f5530c9f25717908b9cb6f177af204",
+      "bytes": 155840,
+      "elapsed_s": 18.0
+    },
+    {
+      "seed": 21532,
+      "status": "OK",
+      "file": "img-h-s12b-color21532.png",
+      "sha256": "eded7edb428b5dc74ad70acad5992836779f70df227411711e204c8ab01a4326",
+      "bytes": 178644,
+      "elapsed_s": 9.0
+    },
+    {
+      "seed": 21533,
+      "status": "OK",
+      "file": "img-h-s12b-color21533.png",
+      "sha256": "48624c1d686dbf6fad6825e84ea33e5b062ebd3e42f9a65d53f0a58457cd2104",
+      "bytes": 174421,
+      "elapsed_s": 9.1
+    }
+  ]
+}

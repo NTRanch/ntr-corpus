@@ -1,0 +1,21 @@
+{
+ "frames": 96,
+ "fps": 16,
+ "input": "/home/phaedrus/ntr-corpus/images/img-cov-029.png",
+ "seed": 2902,
+ "breath": {
+  "enabled": false
+ },
+ "spring": {
+  "enabled": false
+ },
+ "camera": {
+  "enabled": true,
+  "zoom_from": 1.0,
+  "zoom_to": 1.09,
+  "pan": [
+   0.1,
+   -0.06
+  ]
+ }
+}

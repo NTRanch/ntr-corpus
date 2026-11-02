@@ -1,0 +1,8 @@
+{
+ "owner_verdict": "SCRAPPED",
+ "owner_verdict_at": "2026-10-23 22:55 PDT",
+ "scope": "entire v38 E12 fresh panel (10 frames)",
+ "basis": "Owner: \"scrap this one we'll try it again after your standardization\"",
+ "lifecycle": "rejected",
+ "retry": "regenerate after Corpus Factory standardization (queue runner + QC gate)"
+}

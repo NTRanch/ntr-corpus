@@ -1,0 +1,10 @@
+{
+  "parent_item_id": "img-h-e6",
+  "parent_batch": "specs-h-v4",
+  "parent_sha256": "53efeefd116b5db98fc71031c01cac91d677a2fac5160c28080c3f3e54146c09",
+  "selected_candidate": "img-h-e6-fixed.png",
+  "chain": "v4 img-h-e6 -> facefix3 (face-only inpaint: rolled-up eyes, gaping ahegao, drool; crying read removed) -> milkfix1 (torso inpaint) -> leakfix1 (pumps-only inpaint: pumps overwhelmed, milk streaming from the seals and pooling)",
+  "selected_source_file": "img-h-e6-leakfix1.png",
+  "gate_note": "Face now reads overwhelming pleasure / brain short-circuit, zero tears. Her hands press down on both breasts (inherited from the v4 original) and the pumps visibly leak streams of milk that pool below. Residual: a true grip-and-squeeze pose did not survive any attempt - across 12 inpaint variants the model repeatedly erased the hands entirely when pushed toward gripping, so the pressing hands are the delivered read. Pumps also redrew smaller than the v4 clear domes. Final acceptance is the Owner eye gate.",
+  "attempts_total": 12
+}

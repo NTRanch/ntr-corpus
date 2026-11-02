@@ -1,0 +1,50 @@
+{
+  "asset_id": "img-hx-009-c4e",
+  "sha256": "bdc45ea0ef9ab665ecca12fa9715809343a2a8fb34982dd3803a22edde047f3d",
+  "path": "/home/phaedrus/ntr-corpus/images/_candidates/covert-v4-20261024/img-hx-009-c4e.png",
+  "recipe_hash": "1b747f9a4210d037be316c592325e1abbe34571ec4b2edd86db7dc687e38983d",
+  "runner": "specs-queue-runner-v1",
+  "recipe": {
+    "template_version": "corpus-factory-v1",
+    "checkpoint": {
+      "name": "Iris.safetensors",
+      "sha256": "536863e9f0c13b0ce834e2f8a19ada425ee4f722c0ad3d0051ec7e6adaa8156c"
+    },
+    "loras": [],
+    "seed": 36105,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 28,
+    "cfg": 5.5,
+    "width": 1216,
+    "height": 832,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, black hair, bob cut, hypnosis, post-hypnotic suggestion, city street, night, fully clothed, long coat, coat closed, properly dressed, modest outfit, two-panel comparison, split panel, side by side, left panel: the girl fully clothed standing normally, right panel: x-ray view of the same girl revealing the bdsm gear hidden under her clothes: tight rope harness, shibari, rope digging into skin, nipple clamps, chain between nipple clamps, body writing on her skin, secret bondage under clothing, aroused, blush, secret smile, enjoying, trembling with pleasure",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, open coat, open blouse, unbuttoned, undressed"
+  },
+  "content": {
+    "type_code": "Specs-H",
+    "cluster": "covert-v4-20261024",
+    "character_id": null,
+    "archetype": null,
+    "state": null,
+    "expression": null,
+    "framing": null,
+    "costume": null,
+    "setting": null,
+    "canon_invariants": []
+  },
+  "provenance": {
+    "source_type": "abstracted-type",
+    "adult_basis": "original fictional adult woman; mature female tags in prompt; no real person",
+    "license_status": "internal-only",
+    "license_alert": false
+  },
+  "lifecycle": {
+    "state": "candidate",
+    "owner_verdict": null,
+    "owner_verdict_at": null,
+    "pax_gate": "queue-runner v1; not admitted"
+  },
+  "derivatives": {},
+  "rating_declared": "explicit"
+}

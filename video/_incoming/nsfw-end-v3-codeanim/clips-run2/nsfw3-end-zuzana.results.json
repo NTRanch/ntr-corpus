@@ -1,0 +1,13 @@
+{
+ "frames": 96,
+ "fps": 16.0,
+ "size": [
+  1024,
+  1920
+ ],
+ "render_wall_s": 37.841,
+ "spring_seam_residual_px": 0.0,
+ "loop_seam_meanabsdiff": 1.2661,
+ "median_interframe_meanabsdiff": 5.9733,
+ "job": "/home/phaedrus/ntr-corpus/video/_incoming/nsfw-end-v3-codeanim/jobs/nsfw3-end-zuzana.json"
+}

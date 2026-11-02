@@ -1,0 +1,5 @@
+# Internal-only / rebuildable — never tracked, never uploaded (CORPUS-DESIGN tiers)
+/.venv/
+/vocabulary/
+*.pyc
+__pycache__/

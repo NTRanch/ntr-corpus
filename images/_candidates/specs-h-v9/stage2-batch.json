@@ -1,0 +1,85 @@
+{
+  "batch": "specs-h-v9-e6-stage2",
+  "results": [
+    {
+      "item_id": "img-h-e6-handsfix1",
+      "status": "OK",
+      "file": "img-h-e6-handsfix1.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-handsfix1.png",
+      "sha256": "0ef1bc738b1b0e94b62ad79b4167c439569346a5e607ab7f019cd0eb7b0a3019",
+      "bytes": 1359061,
+      "seed": 3301,
+      "denoise": 0.85,
+      "source": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-facefix3.png",
+      "mask_box": [
+        30,
+        560,
+        810,
+        1010
+      ],
+      "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, same adult woman, bride, formal white dress, long red hair, ecstatic overwhelming pleasure, her own two hands gripping and squeezing both of her huge breasts, hands milking her breasts, fingers sinking deep into the soft flesh, breasts deforming under the squeeze, milk beginning to express, dual clear breast pumps attached below, lactation, trembling",
+      "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, crying, tears, sad, missing hands, no hands, hands resting, hands away from breasts",
+      "elapsed_s": 14.1
+    },
+    {
+      "item_id": "img-h-e6-handsfix2",
+      "status": "OK",
+      "file": "img-h-e6-handsfix2.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-handsfix2.png",
+      "sha256": "c8785fa936ea028d510889713da08f3c4bbe056de6167bd2848913daab21e406",
+      "bytes": 1337102,
+      "seed": 3302,
+      "denoise": 0.95,
+      "source": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-facefix3.png",
+      "mask_box": [
+        30,
+        560,
+        810,
+        1010
+      ],
+      "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, same adult woman, bride, formal white dress, long red hair, ecstatic overwhelming pleasure, her own two hands gripping and squeezing both of her huge breasts, hands milking her breasts, fingers sinking deep into the soft flesh, breasts deforming under the squeeze, milk beginning to express, dual clear breast pumps attached below, lactation, trembling",
+      "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, crying, tears, sad, missing hands, no hands, hands resting, hands away from breasts",
+      "elapsed_s": 8.0
+    },
+    {
+      "item_id": "img-h-e6-leakfix1",
+      "status": "OK",
+      "file": "img-h-e6-leakfix1.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-leakfix1.png",
+      "sha256": "897a3208a237f7b72f63acbeff79c6aeae383fac70cc1b62fef90f4bbd72e825",
+      "bytes": 1389821,
+      "seed": 3401,
+      "denoise": 0.85,
+      "source": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-milkfix1.png",
+      "mask_box": [
+        40,
+        990,
+        800,
+        1216
+      ],
+      "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, same adult woman, bride, formal white dress, dual clear breast pumps attached to her nipples, pumps completely full and overwhelmed, milk leaking out around the pump seals, streams of milk escaping the rims and running down, milk dripping and pooling on the surface below, lactation",
+      "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, crying, tears, sad, missing hands, no hands, hands resting, hands away from breasts",
+      "elapsed_s": 8.0
+    },
+    {
+      "item_id": "img-h-e6-leakfix2",
+      "status": "OK",
+      "file": "img-h-e6-leakfix2.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-leakfix2.png",
+      "sha256": "bc6e049af7f57d69e922de08df914845f85fc1389c4a91039123e6dea714a41c",
+      "bytes": 1400901,
+      "seed": 3402,
+      "denoise": 0.95,
+      "source": "/home/phaedrus/ntr-corpus/images/_candidates/specs-h-v9/img-h-e6-milkfix1.png",
+      "mask_box": [
+        40,
+        990,
+        800,
+        1216
+      ],
+      "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, same adult woman, bride, formal white dress, dual clear breast pumps attached to her nipples, pumps completely full and overwhelmed, milk leaking out around the pump seals, streams of milk escaping the rims and running down, milk dripping and pooling on the surface below, lactation",
+      "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, crying, tears, sad, missing hands, no hands, hands resting, hands away from breasts",
+      "elapsed_s": 8.0
+    }
+  ]
+}

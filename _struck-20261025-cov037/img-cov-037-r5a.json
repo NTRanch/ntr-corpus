@@ -1,0 +1,50 @@
+{
+  "asset_id": "img-cov-037-r5a",
+  "sha256": "da677b0fde2a8268dabb50b78d22f38a89cd3aba0dda504b3e78a648d7660927",
+  "path": "/home/phaedrus/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-cov-037-r5a.png",
+  "recipe_hash": "b8959801b1d118f5397ec262a7a6ab8e69d1da444b9fc8e59c9311459b112dcf",
+  "runner": "specs-queue-runner-v1",
+  "recipe": {
+    "template_version": "corpus-factory-v1",
+    "checkpoint": {
+      "name": "Iris.safetensors",
+      "sha256": "536863e9f0c13b0ce834e2f8a19ada425ee4f722c0ad3d0051ec7e6adaa8156c"
+    },
+    "loras": [],
+    "seed": 33151,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 28,
+    "cfg": 5.5,
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, paizuri, between breasts, huge breasts, brown_hair, long_hair, bedroom, single scene, nude, completely nude, looking up, upturned eyes, blush, penis, flesh colored penis, pink glans, eager expression, aroused, pleasure, open mouth, smile, tongue out slightly",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, clothes, clothing, shirt, clothed, green penis, discolored penis, colored penis"
+  },
+  "content": {
+    "type_code": "Specs-H",
+    "cluster": "eye-pass-retry-directed",
+    "character_id": null,
+    "archetype": null,
+    "state": null,
+    "expression": null,
+    "framing": null,
+    "costume": null,
+    "setting": null,
+    "canon_invariants": []
+  },
+  "provenance": {
+    "source_type": "abstracted-type",
+    "adult_basis": "original fictional adult woman; mature female tags in prompt; no real person",
+    "license_status": "internal-only",
+    "license_alert": false
+  },
+  "lifecycle": {
+    "state": "candidate",
+    "owner_verdict": null,
+    "owner_verdict_at": null,
+    "pax_gate": "queue-runner v1; not admitted"
+  },
+  "derivatives": {},
+  "rating_declared": "explicit"
+}

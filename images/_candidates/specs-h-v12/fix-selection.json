@@ -1,0 +1,11 @@
+{
+  "item": "img-h-s8",
+  "selected_file": "img-h-s8-lettered.png",
+  "selected_sha256": "46df955aa8fccb2ff49509ae1573cb0fe869cc1a3155ce7cfb0864d705a35044",
+  "parent_file": "img-h-s8-b.png",
+  "parent_sha256": "d937184125cea3fc",
+  "parent_seed": 14782,
+  "method": "As-generated winner (seed 14782: self-milking, milk streaming into mug, happily aroused face all in frame) carried NO lettering on the mug; generation put garbled pseudo-text caption bands elsewhere in frame instead. The words 'for master' were lettered onto the mug's blank front deterministically with PIL (DejaVuSans-Bold 27px, centered x=465, y=1060) as a disclosed post-edit. Parent PNG untouched. The generated gibberish caption bands remain in frame (disclosed).",
+  "owner_directive": "Matt 2026-10-23 14:53 PDT: bottom right milking herself, milk into a mug with the words 'for master', happily aroused to milk it.",
+  "status": "STAGED for owner eye gate; not admitted"
+}

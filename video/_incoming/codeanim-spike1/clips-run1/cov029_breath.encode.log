@@ -1,0 +1,48 @@
+ffmpeg version n9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 16 (GCC)
+  configuration: --prefix=/usr --disable-debug --disable-static --disable-stripping --enable-amf --enable-avisynth --enable-cuda-llvm --enable-lto --enable-fontconfig --enable-frei0r --enable-gmp --enable-gnutls --enable-gpl --enable-ladspa --enable-lcms2 --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libdav1d --enable-libdrm --enable-libdvdnav --enable-libdvdread --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libharfbuzz --enable-libiec61883 --enable-libjack --enable-libjxl --enable-libmodplug --enable-libmp3lame --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libplacebo --enable-libpulse --enable-librav1e --enable-librsvg --enable-librubberband --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpl --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxcb --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-nvdec --enable-nvenc --enable-opencl --enable-opengl --enable-shared --enable-vapoursynth --enable-version3 --enable-vulkan --disable-decoder=magicyuv
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, image2, from '/home/phaedrus/ntr-corpus/video/_incoming/codeanim-spike1/clips-run1/frames-cov029_breath/f%03d.png':
+  Duration: 00:00:06.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 832x1216, 16 fps, 16 tbr, 16 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x558566254480] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x558566254480] profile High, level 3.2, 4:2:0, 8-bit
+[libx264 @ 0x558566254480] 264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=16 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/phaedrus/ntr-corpus/video/_incoming/codeanim-spike1/clips-run1/cov029_breath.mp4':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 832x1216, q=2-31, 16 fps, 16384 tbn
+    Metadata:
+      encoder         : Lavc63.1.102 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    6 fps=0.0 q=22.0 size=       0KiB time=00:00:00.25 bitrate=   1.5kbits/s speed= 0.5x elapsed=0:00:00.50    frame=   20 fps= 20 q=22.0 size=     256KiB time=00:00:01.12 bitrate=1864.5kbits/s speed=1.12x elapsed=0:00:01.00    frame=   33 fps= 22 q=22.0 size=     256KiB time=00:00:01.93 bitrate=1082.6kbits/s speed=1.29x elapsed=0:00:01.50    frame=   47 fps= 23 q=22.0 size=     512KiB time=00:00:02.81 bitrate=1491.4kbits/s speed=1.41x elapsed=0:00:02.00    frame=   61 fps= 24 q=22.0 size=     768KiB time=00:00:03.68 bitrate=1706.3kbits/s speed=1.47x elapsed=0:00:02.50    frame=   77 fps= 26 q=22.0 size=     768KiB time=00:00:04.68 bitrate=1342.3kbits/s speed=1.56x elapsed=0:00:03.00    frame=   93 fps= 27 q=22.0 size=    1024KiB time=00:00:05.68 bitrate=1475.0kbits/s speed=1.62x elapsed=0:00:03.50    [mp4 @ 0x558566248780] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x558566247f80] video:1107KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.178101%
+frame=   96 fps= 27 q=22.0 Lsize=    1109KiB time=00:00:05.87 bitrate=1546.4kbits/s speed=1.65x elapsed=0:00:03.55    
+[libx264 @ 0x558566254480] frame I:1     Avg QP:11.43  size:124529
+[libx264 @ 0x558566254480] frame P:24    Avg QP:13.04  size: 30469
+[libx264 @ 0x558566254480] frame B:71    Avg QP:20.03  size:  3904
+[libx264 @ 0x558566254480] consecutive B-frames:  1.0%  0.0%  3.1% 95.8%
+[libx264 @ 0x558566254480] mb I  I16..4:  8.9% 48.9% 42.2%
+[libx264 @ 0x558566254480] mb P  I16..4:  0.2%  0.4%  0.1%  P16..4: 43.6% 17.1% 15.3%  0.0%  0.0%    skip:23.5%
+[libx264 @ 0x558566254480] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 44.3%  3.7%  0.5%  direct: 1.1%  skip:50.3%  L0:50.1% L1:41.6% BI: 8.3%
+[libx264 @ 0x558566254480] 8x8 transform intra:50.8% inter:57.9%
+[libx264 @ 0x558566254480] coded y,uvDC,uvAC intra: 63.7% 92.6% 88.8% inter: 8.3% 9.6% 6.0%
+[libx264 @ 0x558566254480] i16 v,h,dc,p: 50% 25% 18%  7%
+[libx264 @ 0x558566254480] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 39% 18% 23%  3%  4%  4%  3%  3%  2%
+[libx264 @ 0x558566254480] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 41% 15% 10%  5%  6%  9%  5%  5%  3%
+[libx264 @ 0x558566254480] i8c dc,h,v,p: 52% 17% 26%  5%
+[libx264 @ 0x558566254480] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x558566254480] ref P L0: 52.2%  1.1% 19.5% 27.1%
+[libx264 @ 0x558566254480] ref B L0: 73.6% 18.7%  7.7%
+[libx264 @ 0x558566254480] ref B L1: 89.3% 10.7%
+[libx264 @ 0x558566254480] kb/s:1510.59

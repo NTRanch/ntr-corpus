@@ -1,0 +1,25 @@
+=== RUN 1 ===
+run1 nsfw3-end-cordelia OK sha=562acd3edf9f
+run1 nsfw3-end-kaisa OK sha=085d584f8d6a
+run1 nsfw3-end-katya OK sha=d03c26c4ccc1
+run1 nsfw3-end-manon OK sha=381bffde55e0
+run1 nsfw3-end-maren OK sha=64197807e35a
+run1 nsfw3-end-sadie OK sha=3dd4f2977ddf
+run1 nsfw3-end-valentina OK sha=6e9b51b4c872
+run1 nsfw3-end-vivienne OK sha=4b2c2684d363
+run1 nsfw3-end-yuna OK sha=e956fbf4a667
+run1 nsfw3-end-zuzana OK sha=f3761754d910
+=== RUN 2 ===
+run2 nsfw3-end-cordelia OK sha=562acd3edf9f
+run2 nsfw3-end-kaisa OK sha=085d584f8d6a
+run2 nsfw3-end-katya OK sha=d03c26c4ccc1
+run2 nsfw3-end-manon OK sha=381bffde55e0
+run2 nsfw3-end-maren OK sha=64197807e35a
+run2 nsfw3-end-sadie OK sha=3dd4f2977ddf
+run2 nsfw3-end-valentina OK sha=6e9b51b4c872
+run2 nsfw3-end-vivienne OK sha=4b2c2684d363
+run2 nsfw3-end-yuna OK sha=e956fbf4a667
+run2 nsfw3-end-zuzana OK sha=f3761754d910
+DETERMINISM: PASS
+WALL run1_s=607 run2_s=506 total_s=1113
+=== DONE ===

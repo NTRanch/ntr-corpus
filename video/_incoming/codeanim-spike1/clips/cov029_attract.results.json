@@ -1,0 +1,13 @@
+{
+ "frames": 96,
+ "fps": 16.0,
+ "size": [
+  832,
+  1216
+ ],
+ "render_wall_s": 21.141,
+ "spring_seam_residual_px": 0.0,
+ "loop_seam_meanabsdiff": 1.0022,
+ "median_interframe_meanabsdiff": 3.4223,
+ "job": "/home/phaedrus/codeanim-src/jobs/cov029_attract.json"
+}

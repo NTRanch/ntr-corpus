@@ -1,0 +1,11 @@
+{
+  "parent_item_id": "img-h-s2-c",
+  "parent_batch": "specs-h-v7",
+  "parent_sha256": "39ccc5c7d2346cf2dfa6cfe6d87ba14f80f03b89f57a0e95dc5f3516d2da3a84",
+  "selected_candidate": "img-h-s2-c-fixed.png",
+  "selected_source_file": "img-h-s2-c-inpaint2.png",
+  "method": "masked inpaint from the v7 C image; feathered pelvis/buttock mask; denoise 0.88; seed 9120",
+  "gate_note": "Selected because it removes the hard-edged floating cross-section/sticker read and shades both objects into the surrounding flesh. It reads more as physical insertion than a literal internal cross-section; final acceptance remains the Owner eye gate.",
+  "other_attempts": "Four fresh txt2img variants and six additional inpaint variants were generated and rejected at the Pax gate for retaining an inset/sticker read, losing the second distinct shape, or moving the anatomy outside the body.",
+  "owner_verdict": "ACCEPTED 2026-10-23 12:53 PDT (\"that one is great\")"
+}

@@ -1,0 +1,29 @@
+{
+ "frames": 96,
+ "fps": 16,
+ "input": "/home/phaedrus/ntr-corpus/images/img-cov-029.png",
+ "seed": 2903,
+ "breath": {
+  "enabled": false
+ },
+ "camera": {
+  "enabled": false
+ },
+ "spring": {
+  "enabled": true,
+  "region": {
+   "cx": 0.42,
+   "cy": 0.68,
+   "rx": 0.33,
+   "ry": 0.16
+  },
+  "stiffness": 25.0,
+  "damping": 3.5,
+  "drive_amp_px": [
+   2.0,
+   8.0
+  ],
+  "drive_period_s": 3.0,
+  "warmup_periods": 12
+ }
+}

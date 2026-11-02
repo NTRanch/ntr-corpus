@@ -1,0 +1,37 @@
+{
+  "batch": "covert-english-c4e-attempt3",
+  "checkpoint": "Iris.safetensors",
+  "results": [
+    {
+      "item_id": "img-hx-009-c4e",
+      "status": "OK",
+      "file": "img-hx-009-c4e-enbase4.png",
+      "output": "/home/phaedrus/ntr-corpus/images/_candidates/covert-v4-20261024/img-hx-009-c4e-enbase4.png",
+      "sha256": "4278830b8c88e7fb8df310f796c234b62cad0be9115b077b28099adf8f06088e",
+      "bytes": 1434478,
+      "method": "native-resolution masked inpaint (VAEEncodeForInpaint, grow_mask_by=20), stage 1 of the English body-writing redo",
+      "checkpoint": "Iris.safetensors",
+      "seed": 34210,
+      "steps": 40,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "mask_ellipses": [
+        [
+          838,
+          488,
+          902,
+          690
+        ]
+      ],
+      "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, black hair, bob cut, gold rope harness, shibari, tight rope, nipple clamps, bare skin, smooth skin, clean unmarked skin, blank skin, plain skin, hypnosis, heart-shaped pupils, aroused, blush, smile",
+      "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, body writing, writing on skin, letters, kanji, markings, tattoo",
+      "source_type": "owner-directed-edit",
+      "derived_from": "img-hx-009-c4e-enbase3.png",
+      "derived_from_sha256": "d2390af58344da545f49ec5547b0ce0516a7a23e5d9e6212580b412a1130c8af",
+      "owner_directive": "Owner 2026-10-24: redo the body writing so it is English; stage 1 inpaint glyph writing to clean skin, stage 2 PIL composite adds English marker text",
+      "prompt_id": "f1dbe3de-590b-414d-8236-2b63ff91470a"
+    }
+  ]
+}

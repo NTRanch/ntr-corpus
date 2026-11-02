@@ -1,0 +1,7 @@
+{
+  "selection": "img-h-x7-hand20103-recolor.png",
+  "sha256": "bc60b91e4f8d2f24ae1ef4e685c1dbb60cd29e93496251978b19df33b9d584b6",
+  "parent": "specs-h-v24/img-h-x7-hand20103.png (inpaint seed 20103)",
+  "method": "deterministic recolor: teal-slate hand pixels (G>R) in x>=540,y>=760 remapped to breast skin tone (232,181,178) scaled by per-pixel luminance; lineart, areola, milk spray untouched",
+  "gate": "hand distinct, skin-toned, fingers pinching left nipple, milk jets from pinched nipple"
+}

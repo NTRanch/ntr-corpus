@@ -1,0 +1,38 @@
+{
+  "round": "specs-h-v20 (+v21 tankard retry)",
+  "owner_directives": [
+    "Matt 2026-10-23 16:17 PDT: upscale the quality for the girl milking herself and make it more like how it just was (uploaded the v15 close-up: pink hair, squeezing her own breasts, stream into the mug right under her breast, face in frame).",
+    "Also: try one of her lifting one of her own breasts to her mouth and sucking on it, uneven ahegao eyes and hearts, as she cums."
+  ],
+  "method_note": "Quality bump = 1024x1536 (from 832x1216) + 36 steps (from 28), cfg 5.5, Iris.",
+  "milking_selection": {
+    "file": "specs-h-v20/img-h-s8-m1.png",
+    "seed": 19103,
+    "sha256": "3fbd44f09ef59d2f051a8b82cfd350425452a0922957aa18ca697b2ed36ad764",
+    "why": "Closest to the uploaded composition at the new quality: hand squeezing her breast, stream arcing into a full white mug, aroused happy face. t1 leaked onto the table (vessel not receiving); t2 cropped the tankard to a sliver and drifted her eyes teal; m2 poured FROM the mug onto her (direction reversed)."
+  },
+  "milking_final": {
+    "file": "specs-h-v20/img-h-s8-final-v20.png",
+    "sha256": "b4badbca5b0097724f1afddc5e8f9408dab506afcb52743c44ef149217e292fc",
+    "method": "Great Vibes royal script BIG at 178px wide, deep royal purple (80,28,132) 96%, cylinder warp, layer rotated -7 degrees to match the mug's tilt, centered (452,1288); the mug's own overflow drip crosses in front of the last letters. Pass 1 sat high-left with the swash on her skin; pass 2 is the keeper."
+  },
+  "tankard_closeup_retry_v21": {
+    "result": "BOTH REJECTED - at close framing the model cannot hold 'tankard as vessel': 19303 put pump flanges on her nipples with tankards in the background; 19304 strapped the tankards OVER her nipples and poured them onto the table. The tankard version remains the wider tavern shot (v17 seed 17303, lettered). Close-up + tankard is a known model failure mode now, logged."
+  },
+  "suckle_results": {
+    "x1": {
+      "file": "specs-h-v20/img-h-x1.png",
+      "seed": 19201,
+      "sha256": "e8f4d97f1c9aa8baab8c92f994e2765451f60bb3750c75e504838115a0ef7b9c",
+      "gate": "ACT WINNER: latched onto her own lifted breast, milk streaming, hearts beside her head - but eyes screwed shut (not the uneven open pair) and the breast rendered in a gray-lavender palette off from her skin."
+    },
+    "x3": {
+      "file": "specs-h-v20/img-h-x3.png",
+      "seed": 19203,
+      "sha256": "49c4f1a53ead2c9641068d94f5090743d56f8b4d6dc684f1f97fa189424a8ad5",
+      "gate": "FACE WINNER: strongest uneven orgasm eyes (one rolled white, one wide) with milk chaos everywhere - but the latch is weak, she mouths between her breasts rather than sucking a nipple."
+    },
+    "x2": "REJECTED: sucking through a mauve top, breasts covered."
+  },
+  "status": "STAGED for owner eye gate"
+}

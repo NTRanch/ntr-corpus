@@ -1,0 +1,1088 @@
+{
+ "registry": "Specs-H keeper registry",
+ "built": "2026-10-23",
+ "note": "Confirmed keepers carry full recipe cards (exact replay). Candidates carry file references only until the owner verdict lands. This registry is the future house-LoRA dataset source: captions derive from each card's positive tags with the invariant STYLE prefix stripped.",
+ "lora_gate": {
+  "pilot_at_diverse_keepers": 20,
+  "production_at_diverse_keepers": 40,
+  "diversity_rules": [
+   ">=6 distinct women/hair",
+   ">=5 act/expression families",
+   "no family >25% of the training subset",
+   "mixed framings (close-up / upper body / wider)",
+   "every item tagger-passed and owner-accepted"
+  ]
+ },
+ "keepers": [
+  {
+   "id": "img-h-e6",
+   "label": "H-E6 pumps, courtesy-beg face",
+   "status": "ACCEPTED",
+   "basis": "Owner accepted the v4 directed regen; later served as the combo3 parent.",
+   "file": "img-h-e6.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v4/img-h-e6.png",
+   "sha256": "53efeefd116b5db98fc71031c01cac91d677a2fac5160c28080c3f3e54146c09",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9766,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, upper_body, formal, dress, tiara, red_hair, long_hair, breast pump, transparent, lactation, milk, breast milk, hands on breasts, squeezing, vibrator, edging, about_to_cum, blissful, trembling, tears, begging, blush, desperate, looking_at_viewer, large_breasts",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-e6-combo3",
+   "label": "H-E6 face+torso combo inpaint",
+   "status": "ACCEPTED",
+   "basis": "Owner 2026-10-23 13:23 PDT: \"this version is good\".",
+   "file": "img-h-e6-combo3.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v10/img-h-e6-combo3.png",
+   "sha256": "433d691181d5443b923d5f328ffb9a2cf895a4a3753831ec4936015f1ae9c505",
+   "recipe": {
+    "method": "combined face+torso masked inpaint from the v4 original, one sampling pass, denoise 0.85, seed 3503; unified prompt (ecstasy face + grip squeeze + clear dome pumps leaking)",
+    "parent_item_id": "img-h-e6",
+    "parent_batch": "specs-h-v4",
+    "parent_sha256": "53efeefd116b5db98fc71031c01cac91d677a2fac5160c28080c3f3e54146c09"
+   }
+  },
+  {
+   "id": "img-h-e10-b",
+   "label": "H-E10 earnest host, squirting ahegao",
+   "status": "ACCEPTED-BY-CONTINUATION",
+   "basis": "Owner-directed recipe-#13 asymmetric-eyes hunt (v14); carried into later rounds unrejected.",
+   "file": "img-h-e10-b.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v14/img-h-e10-b.png",
+   "sha256": "3c8131d495e09d6c0d2ca5e712232ff48690e5d6b2fbbf17c56f0fd3b792a6e5",
+   "recipe": {}
+  },
+  {
+   "id": "img-h-e11-r3",
+   "label": "H-E11 smirk-collapse, heavy rope + ball gag",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 19:01 PDT: v19 sheet top right = keeper.",
+   "file": "img-h-e11-r3.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v18/img-h-e11-r3.png",
+   "sha256": "724a4f281a5584dd44dcf49187779344ac7558ce4162ee5c1ebc0f86ae93193c",
+   "recipe": {}
+  },
+  {
+   "id": "img-h-e12-b",
+   "label": "H-E12 trait-surfacing, milk-spray orgasm",
+   "status": "ACCEPTED-BY-CONTINUATION",
+   "basis": "Owner directive 2026-10-23 15:55 PDT; only seed with legible squirt AND uneven eyes.",
+   "file": "img-h-e12-b.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v16/img-h-e12-b.png",
+   "sha256": "7000fad5aa141475d9d89d7355529621ccf9de83f83a03d4395c5c56405f070e",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 19811,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, mature female, tall female, cow girl, cow ears, horns, bell collar, long brown hair, fangs, feral expression, lewd face, ahegao, tongue out, drooling, one eye half closed, one eye wide open, rolling eyes, uneven eyes, dazed, orgasm, spraying milk, milk spray, lactation, female ejaculation, squirting, excessive pussy juice, huge breasts, trembling, cowboy shot, potion shop, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s2-a",
+   "label": "H-S2 x-ray service A",
+   "status": "ACCEPTED",
+   "basis": "Owner 2026-10-23 12:36 PDT: \"all 3 of those are good\".",
+   "file": "img-h-s2-a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v7/img-h-s2-a.png",
+   "sha256": "a5b87518335fadccf0d3aeaeadfc94f4e7e2a2ef4c62bff6e1ef0e20f6d7032d",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9118,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, maid, maid_headdress, cowboy_shot, standing, mansion, indoors, skirt_lift, apron lift, x-ray, cross-section, vaginal insertion, anal insertion, dildo, butt plug, anal beads, orgasm, ahegao, trembling, blush, sweat, black_hair, hair_bun, large_breasts",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s2-b",
+   "label": "H-S2 x-ray service B",
+   "status": "ACCEPTED",
+   "basis": "Owner 2026-10-23 12:36 PDT: \"all 3 of those are good\".",
+   "file": "img-h-s2-b.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v7/img-h-s2-b.png",
+   "sha256": "7bf2f6497b70fe46fb3dbb7ab1d123e111894528500d91a7871b64cd7b74be2f",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9119,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, x-ray, cross-section, maid, maid_headdress, cowboy_shot, standing, mansion, indoors, skirt_lift, apron lift, smooth dildo, vaginal insertion, beaded butt plug, anal insertion, orgasm, ahegao, trembling, blush, sweat, black_hair, hair_bun, large_breasts",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s2-c-fixed",
+   "label": "H-S2 x-ray C, inpaint-fixed",
+   "status": "ACCEPTED",
+   "basis": "Owner 2026-10-23 12:53 PDT: \"that one is great nice job\".",
+   "file": "img-h-s2-c-fixed.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v8/img-h-s2-c-fixed.png",
+   "sha256": "4140d91f7dcb985f711c2246f910cfd28abbf8f99cc5a9205d1ec11330d7b5ad",
+   "recipe": {
+    "method": "masked inpaint from the v7 C image; feathered pelvis/buttock mask; denoise 0.88; seed 9120",
+    "parent_item_id": "img-h-s2-c",
+    "parent_batch": "specs-h-v7",
+    "parent_sha256": "39ccc5c7d2346cf2dfa6cfe6d87ba14f80f03b89f57a0e95dc5f3516d2da3a84"
+   }
+  },
+  {
+   "id": "img-h-s8-final-v15",
+   "label": "H-S8 engorgement relief, mug final (royal script)",
+   "status": "ACCEPTED-BY-CONTINUATION",
+   "basis": "Owner-directed lettering rounds v12-v15; royal-script printed look is his spec.",
+   "file": "img-h-s8-final-v15.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v14/img-h-s8-final-v15.png",
+   "sha256": "7bfa1cdc5364509a62f44e1175884d0bb2e9ca6590084e98ad26e2c06409df78",
+   "recipe": {}
+  },
+  {
+   "id": "img-h-s8-m1",
+   "label": "H-S8 milking close-up, parent of v20 final",
+   "status": "PAX-SELECTED",
+   "basis": "Owner-directed close-up round (v20 quality bump); Pax winner of 4 seeds.",
+   "file": "img-h-s8-m1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v20/img-h-s8-m1.png",
+   "sha256": "3fbd44f09ef59d2f051a8b82cfd350425452a0922957aa18ca697b2ed36ad764",
+   "recipe": {}
+  },
+  {
+   "id": "img-h-s8-final-v20",
+   "label": "H-S8 milking close-up final, big royal script",
+   "status": "PAX-SELECTED",
+   "basis": "Lettering pass 2 on m1 recorded as the keeper of that pass; no separate owner verdict.",
+   "file": "img-h-s8-final-v20.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v20/img-h-s8-final-v20.png",
+   "sha256": "b4badbca5b0097724f1afddc5e8f9408dab506afcb52743c44ef149217e292fc",
+   "recipe": {}
+  },
+  {
+   "id": "img-h-x9-keeper",
+   "label": "Self-suckle latch, breast-to-lips (from seed 19409 via v28 inpaint 20703)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 18:13 PDT: \"this one is a keeper\".",
+   "file": "img-h-x9-keeper.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v28-x9/img-h-x9-keeper.png",
+   "sha256": "a7dbdd69293ab6f747792fddd2d520c907128740001aae3da5e4182d6a724ed3",
+   "recipe": {}
+  },
+  {
+   "id": "img-h-x7-hand20103-recolor",
+   "label": "x7 hand fix v24+v26 recolor (superseded by v29 round)",
+   "status": "SUPERSEDED",
+   "basis": "Owner 2026-10-23 18:12 PDT rejected the delivery: \"the hands don't match her actions\". Kept as record; do not ship.",
+   "file": "img-h-x7-hand20103-recolor.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v26/img-h-x7-hand20103-recolor.png",
+   "sha256": "bc60b91e4f8d2f24ae1ef4e685c1dbb60cd29e93496251978b19df33b9d584b6",
+   "recipe": {
+    "method": "deterministic recolor: teal-slate hand pixels (G>R) in x>=540,y>=760 remapped to breast skin tone (232,181,178) scaled by per-pixel luminance; lineart, areola, milk spray untouched"
+   }
+  },
+  {
+   "id": "img-h-x6",
+   "label": "Self-suckle mood keeper (hearts, latch implied)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 18:57 PDT: \"keeper\" (on the reposted single).",
+   "file": "img-h-x6.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v22/img-h-x6.png",
+   "sha256": "89745e5949ee3898ea0b46302653f6a387b769378ae9729b0afdbbe9157a15ed",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 19406,
+    "steps": 36,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, warm skin, peach skin tone, huge breasts, lifting own breast, holding breast up to mouth, mouth on nipple, lips around nipple, latched on, sucking own nipple, breast sucking, nipple in mouth, lactation, milk, ahegao, eyes open, one eye half closed, one eye wide open, heart-shaped pupils, rolling eyes, drooling, floating hearts, orgasm, cumming, trembling, blush, close-up, upper body, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-x5-polish",
+   "label": "Self-suckle x5 polished (uneven eyes, hearts, spray, warm skin)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 18:58 PDT: \"keeper\" (on the reposted polished single). Supersedes his queued fix directive on the unpolished parent frame.",
+   "file": "img-h-x5-polish.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v23/img-h-x5-polish.png",
+   "sha256": "3d9deff569e4e77bbab15f5d2df8c234e16389fbc5ada1f4b0323e4a24fcba8a",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 19501,
+    "steps": 36,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "denoise": 0.5,
+    "method": "img2img polish of specs-h-v22 img-h-x5.png (seed 19405)"
+   }
+  },
+  {
+   "id": "img-h-s7",
+   "label": "H-S7 soaking solo (v13 redo)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 19:01 PDT: v19 sheet bottom left = keeper.",
+   "file": "img-h-s7.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v13/img-h-s7.png",
+   "sha256": "d3e0cc315abe49a3f0adff62dfac8efe1dc64fbf481fb57682681d8475af5504",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9781,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long black hair, cow print bikini, bell collar, masturbation, fingering, female ejaculation, squirting, soaking wet, dripping, blush, talking, open mouth, looking at viewer, bedroom, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8-c",
+   "label": "H-S8 topless silver (v13)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 19:01 PDT: v19 sheet bottom center = keeper.",
+   "file": "img-h-s8-c.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v13/img-h-s8-c.png",
+   "sha256": "91207e85388efce616a7cb2a853790885030fdf92e2468a862d33e40407f2e98",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9782,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long silver hair, topless, bare breasts, huge breasts, engorged breasts, lactation, leaking milk, hands on breasts, cupping breasts, happy, aroused, blush, half-closed eyes, open mouth, smile, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s7-v12",
+   "label": "H-S7 unseen performance, guy removed (v12)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 19:08 PDT: v12 fixes sheet bottom left = keeper.",
+   "file": "img-h-s7.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v12/img-h-s7.png",
+   "sha256": "33c710cc1ac37e7383e607baa1fb99e5b2866230c67baaf86a4d22ecac16c8ee",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9781,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long black hair, cow print bikini, bell collar, masturbation, fingering, teasing, blush, talking, open mouth, looking at viewer, bedroom, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8-v12",
+   "label": "H-S8 mug 'for master' pseudo-text original (v12, seed 9782)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 19:08 PDT: v12 fixes sheet bottom center = keeper. Note: frame carries model-generated pseudo-text along the bottom edge, keepered as-is.",
+   "file": "img-h-s8.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v12/img-h-s8.png",
+   "sha256": "901fc013bb32834e207b16d23f3f5bac911698ed016737a77e8f45ffaf7818df",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 9782,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long silver hair, huge breasts, engorged breasts, lactation, milking, squeezing breasts, hands squeezing breasts, milk stream, milk into mug, holding mug below breasts, mug, english text on mug, happy, aroused, blush, half-closed eyes",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s9-r2",
+   "label": "H-S9 hostess, both breasts out over apron (v36 expose round)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:26 PDT: \"2nd ... keeper\" on the combined v36 sheets presentation (counted in display order: cell 2 = S9-r2). Pax had picked r1; owner pick governs.",
+   "file": "img-h-s9-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v36/img-h-s9-r2.png",
+   "sha256": "6889d1411d713094ea37973fba29d3cabb67517fa78353cd6ef95c885e98b5db",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21502,
+    "steps": 36,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, brown hair, farm, barn, cow print apron, cow ears, bell collar, offering, presenting, lactation, leaking milk, earnest, smile, service, indoors, (apron pulled aside:1.3), (one breast fully exposed:1.4), bare breast, exposed nipple, milk leaking from the exposed breast, wet patch on apron, huge breasts",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s11-r1",
+   "label": "H-S11 squirt-climax, standing profile (v36 expose round)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:26 PDT: \"the 4th one ... keeper\" on the combined v36 sheets presentation (counted in display order: cell 4 = S11-r1). Pax had picked r3; owner pick governs.",
+   "file": "img-h-s11-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v36/img-h-s11-r1.png",
+   "sha256": "3baaa9ca2010336cfe6e5b3dd94ac19769d8a372c0b48bed8b2b7027936bb14a",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21511,
+    "steps": 36,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, dildo, vaginal insertion, female ejaculation, squirting, orgasm, ahegao, trembling, arched back, bedroom, indoors, (breasts fully exposed:1.4), bare breasts visible, hair swept back, hair behind shoulders, nipples visible, milk spray",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s9-r1",
+   "label": "H-S9 hostess, apron aside, one breast fully exposed (v36)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:28 PDT: \"1st one with her tit out is a keeper\" (first exposed-breast cell of the S9/S11 sheet = S9-r1).",
+   "file": "img-h-s9-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v36/img-h-s9-r1.png",
+   "sha256": "8168d20cc1a6ce706dc152e93ccc475989520e2a55930b8815d7be3b7c2daf77",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21501,
+    "steps": 36,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, brown hair, farm, barn, cow print apron, cow ears, bell collar, offering, presenting, lactation, leaking milk, earnest, smile, service, indoors, (apron pulled aside:1.3), (one breast fully exposed:1.4), bare breast, exposed nipple, milk leaking from the exposed breast, wet patch on apron, huge breasts",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-e10-r2",
+   "label": "H-E10 stupefied squirt retry r2 (grey-mauve cast, owner keepered as-is)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:39 PDT, by labeled screenshot: img-h-e10-r2 = keeper. Note: the grey-mauve skin cast Pax flagged as a defect stands per owner verdict.",
+   "file": "img-h-e10-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v35/img-h-e10-r2.png",
+   "sha256": "8cc667a36ccc0735e3aa3645b083f8e0b1e621227c57e5aa5c16289a00de94cb",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21402,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, mature female, long brown hair, low ponytail, cow ears, bell collar, micro bikini, cow print micro bikini, huge breasts, lactation, leaking milk, ahegao, trembling body, drooling, tongue out, open mouth, one eye half closed, one eye wide open, rolling eyes, dazed, stupefied, unfocused eyes, orgasm, female ejaculation, excessive pussy juice, pussy juice trail, squirting, cowboy shot, barn, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-e10-r3",
+   "label": "H-E10 stupefied squirt retry r3 (clean warm skin)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:39 PDT, by labeled screenshot: img-h-e10-r3 = keeper.",
+   "file": "img-h-e10-r3.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v35/img-h-e10-r3.png",
+   "sha256": "3dd568b11fba54be667ca447e9c6a9b393df2b1021a2a15291c1e4eb1e402474",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21403,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, mature female, long brown hair, low ponytail, cow ears, bell collar, micro bikini, cow print micro bikini, huge breasts, lactation, leaking milk, ahegao, trembling body, drooling, tongue out, open mouth, one eye half closed, one eye wide open, rolling eyes, dazed, stupefied, unfocused eyes, orgasm, female ejaculation, excessive pussy juice, pussy juice trail, squirting, cowboy shot, barn, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8t-r2",
+   "label": "H-S8 tankard retry r2 (squeezing over the table)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:38 PDT, by labeled screenshot: img-h-s8t-r2 = keeper.",
+   "file": "img-h-s8t-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v35/img-h-s8t-r2.png",
+   "sha256": "f02b0c63d2f67cc3ab0bb14cf0ee3112b2a9b74cfc0e162edd8e90a282d6a9dd",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21422,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, barmaid, tavern, wooden table, huge breasts, topless, bare breasts, lactation, milking herself, squeezing own breasts, hands squeezing breasts, milk stream pouring into a large wooden tankard, one large wooden tankard on the table in front of her, blank tankard front, happy, aroused, blush, half-closed eyes, open mouth, smile, upper body, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8t-r3",
+   "label": "H-S8 tankard retry r3 (milking pumps into barrel)",
+   "status": "KEEPER",
+   "basis": "Owner 2026-10-23 22:38 PDT, by labeled screenshot: img-h-s8t-r3 = keeper.",
+   "file": "img-h-s8t-r3.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v35/img-h-s8t-r3.png",
+   "sha256": "e3b32c66b43e6915bea9b1315c85a85377ba9a2b4a24448265a81b191c4c2505",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21423,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 1024,
+    "height": 1536,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, barmaid, tavern, wooden table, huge breasts, topless, bare breasts, lactation, milking herself, squeezing own breasts, hands squeezing breasts, milk stream pouring into a large wooden tankard, one large wooden tankard on the table in front of her, blank tankard front, happy, aroused, blush, half-closed eyes, open mouth, smile, upper body, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8-pail-v48-a",
+   "label": "H-S8 pail v48 a — under-table milking cups, glasses of milk",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (gate sheet 1, top row a-c).",
+   "file": "img-h-s8-pail-v48-a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v48-pail/img-h-s8-pail-v48-a.png",
+   "sha256": "448b5aa5c7d19aa9ceb309712d0e80b86bf2835c694381ba4d4c23e93ebe24e0",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 17221,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, huge breasts, engorged breasts, lactation, milking, squeezing breasts, hands squeezing breasts, milk stream, milk streams arcing into a wide galvanized metal milking pail between her knees, pail half full of milk, happy, aroused, blush, half-closed eyes, open mouth, smile, wooden table, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8-pail-v48-b",
+   "label": "H-S8 pail v48 b — hugging the milking canister, top-down",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (gate sheet 1, top row a-c).",
+   "file": "img-h-s8-pail-v48-b.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v48-pail/img-h-s8-pail-v48-b.png",
+   "sha256": "dc166443eb6cd03438057822c75efedd5712faa5b75ff379157d94cd7c2dcd46",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 17222,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, huge breasts, engorged breasts, lactation, milking, squeezing breasts, hands squeezing breasts, milk stream, milk streams arcing into a wide galvanized metal milking pail between her knees, pail half full of milk, happy, aroused, blush, half-closed eyes, open mouth, smile, wooden table, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s8-pail-v48-c",
+   "label": "H-S8 pail v48 c — top-down, spraying into floor pans",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (gate sheet 1, top row a-c).",
+   "file": "img-h-s8-pail-v48-c.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v48-pail/img-h-s8-pail-v48-c.png",
+   "sha256": "4be1114a2bfe2686ef309c72897354db2b714d7f487bce8a41e746fab24c9f18",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 17223,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long pink hair, huge breasts, engorged breasts, lactation, milking, squeezing breasts, hands squeezing breasts, milk stream, milk streams arcing into a wide galvanized metal milking pail between her knees, pail half full of milk, happy, aroused, blush, half-closed eyes, open mouth, smile, wooden table, indoors",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s12b-e2r-a",
+   "label": "H-S12b redhead cow-print variation a — full cow-print dress, barn",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (all three cow girls). Directed edit of keeper e2: red hair + cow print.",
+   "file": "img-h-s12b-e2r-a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v48-s12b/img-h-s12b-e2r-a.png",
+   "sha256": "c34135ab4af300be638e307ed3eeab76634b18c9eded8848409567479a91a785",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21562,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, cow ears, horns, bell collar, long red hair, huge breasts, swelling breasts, breast expansion, leaking milk, lactation, spraying milk from nipples, trembling, ahegao, drooling, bedroom, indoors, (warm peach skin tone:1.4), (colorful:1.3), vibrant colors, cow print dress, cow print pattern, flushed skin, blush",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s12b-e2r-b",
+   "label": "H-S12b redhead cow-print variation b — cow print, warm yellow cast",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (all three cow girls, kept despite the yellow cast Pax flagged).",
+   "file": "img-h-s12b-e2r-b.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v48-s12b/img-h-s12b-e2r-b.png",
+   "sha256": "e193f1aeb9f9cf1b4244b4bf22a8828cbc6e567128a3c0e8869cc51f73f6602f",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21571,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, cow ears, horns, bell collar, long red hair, huge breasts, swelling breasts, breast expansion, leaking milk, lactation, spraying milk from nipples, trembling, ahegao, drooling, bedroom, indoors, (warm peach skin tone:1.4), (colorful:1.3), vibrant colors, cow print dress, cow print pattern, flushed skin, blush",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-h-s12b-e2r-c",
+   "label": "H-S12b redhead cow-print variation c — cow-print bodysuit and stockings",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (all three cow girls).",
+   "file": "img-h-s12b-e2r-c.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/specs-h-v48-s12b/img-h-s12b-e2r-c.png",
+   "sha256": "dc4928d65f07c41f32ebfa98cce534e5c2252d57fee814bd1321fea44a06c88c",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 21572,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, cow ears, horns, bell collar, long red hair, huge breasts, swelling breasts, breast expansion, leaking milk, lactation, spraying milk from nipples, trembling, ahegao, drooling, bedroom, indoors, (warm peach skin tone:1.4), (colorful:1.3), vibrant colors, cow print dress, cow print pattern, flushed skin, blush",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-030-r1",
+   "label": "cov-030 retry r1 — solo couch version (kept over the couple version)",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24, retry row A1 (kept 1, 3, 4).",
+   "file": "img-cov-030-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-030-r1.png",
+   "sha256": "cf7e6ea62b19064735ac2dc3288dc5d96c4a176a95485b484bd0ffe9c1158bc4",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33115,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, nipple play, hands on breasts, red_hair, short_hair, couch, shirt lift, embarrassed, sensitive, blush",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-032-r1",
+   "label": "cov-032 retry r1 — early-20s recast",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24, retry row A1.",
+   "file": "img-cov-032-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-032-r1.png",
+   "sha256": "d4a6e173571230d6369672b127f1d1cdab76f95f4b62e4f9398ae3f602a57012",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33101,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1boy, otoko no ko, tomgirl, crossdressing, adult male, lingerie, pink_hair wig, long hair wig, mirror, bedroom, shy smile, adjusting stockings, adult woman in her early 20s, young adult woman",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-032-r2",
+   "label": "cov-032 retry r2 — late-30s cougar recast",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24, retry row A1.",
+   "file": "img-cov-032-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-032-r2.png",
+   "sha256": "1bc7af41b029aa67ab87b25c486670bd114d925c23a3f95d126db786bf459994",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33102,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1boy, otoko no ko, tomgirl, crossdressing, adult male, lingerie, pink_hair wig, long hair wig, mirror, bedroom, shy smile, adjusting stockings, mature woman in her late 30s, cougar, mature female, adult woman",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-hx-009-c3d",
+   "label": "hx-009 covert v3 d — x-ray frame reveal, office girl",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-24 (the 4th of the covert v3 row; the only true reveal-window device of the round).",
+   "file": "img-hx-009-c3d.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/covert-v3-20261024/img-hx-009-c3d.png",
+   "sha256": "5d7a808760c31c51552312fe2a0254b6b7b91417ea9d627e4f613d7b145dba41",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 35104,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, long brown hair, office lady, office, indoors, fully clothed, white blouse, blouse buttoned, pencil skirt, properly dressed, modest outfit, x-ray vision panel, circular x-ray inset over her torso revealing the bdsm gear hidden under her clothes: tight rope harness, shibari, rope digging into skin, nipple clamps, chain between nipple clamps, body writing on her skin, secret bondage under clothing, aroused, blush, secret smile, enjoying, trembling with pleasure",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, open coat, open blouse, unbuttoned, exposed breasts, bare breasts, bare skin, nude, naked, undressed"
+   }
+  },
+  {
+   "id": "img-cov-036-r1",
+   "label": "cov-036 retry r1 — cougar-recast, early-20s version (lingerie, morning stretch)",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row A2 (kept 1, 2).",
+   "file": "img-cov-036-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-036-r1.png",
+   "sha256": "8f6c36329dd4aa76eccb75849d9a2c0c00d7861f2fbe24edeb569694c9afd19b",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33103,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, small breasts, flat chest, adult woman, lingerie, teal_hair, long_hair, bedroom, stretching, morning light, relaxed, adult woman in her early 20s, young adult woman",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-036-r2",
+   "label": "cov-036 retry r2 — cougar-recast, late-30s cougar version (lingerie, morning stretch)",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row A2 (kept 1, 2).",
+   "file": "img-cov-036-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-036-r2.png",
+   "sha256": "4d8e95ded6b2f9bf2835c937989e070843713a5a79368d39ac4856cd4e422a88",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33104,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, small breasts, flat chest, adult woman, lingerie, teal_hair, long_hair, bedroom, stretching, morning light, relaxed, mature woman in her late 30s, cougar, mature female, adult woman",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-037-r1-fix2",
+   "label": "cov-037 retry r1, flesh-recolor fix2 — paizuri tip corrected green to flesh",
+   "status": "KEEPER",
+   "basis": "Owner keep-with-edit 2026-10-25, row A2 cell 3; fix2 accepted by owner (\"this works\"). Deterministic PIL recolor, disclosed.",
+   "file": "img-cov-037-r1-fix2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-037-r1-fix2.png",
+   "sha256": "901be41aed8ca6b7bf744282e16671c91d1afa545087f635aed72379d10540c2",
+   "recipe": {
+    "method": "deterministic PIL hue-remap of the rendered tip region (saturation/value preserved, outline + slit detail kept) on the parent render; no regeneration",
+    "parent_item_id": "img-cov-037-r1",
+    "parent_sha256": "bd36744480b3b1ce1c26cda1c8dd9fe8101e4fb59dc1f18e44a003011b7bdcff"
+   }
+  },
+  {
+   "id": "img-cov-037-r5d",
+   "label": "cov-037 directed r5d — eager paizuri, clarified owner definition (aroused, devoted to please)",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row A2d cell 4.",
+   "file": "img-cov-037-r5d.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-cov-037-r5d.png",
+   "sha256": "057f683d9032294dd865a4337d5eaa67984cceb9925126d693942581ae1d9e8c",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33154,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, paizuri, between breasts, huge breasts, brown_hair, long_hair, bedroom, single scene, nude, completely nude, looking up, upturned eyes, blush, penis, flesh colored penis, desperate to please, eager to please, devoted, lustful, offering breasts, presenting breasts, squeezing breasts together, begging expression, aroused, pleasure, open mouth, smile, tongue out slightly",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, green penis, discolored penis, colored penis"
+   }
+  },
+  {
+   "id": "img-cov-037-r6a",
+   "label": "cov-037 directed r6a — inverted under-him sucking composition, spiral eyes",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row A2e cell 1 — over Pax FAIL gate; owner governs.",
+   "file": "img-cov-037-r6a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-cov-037-r6a.png",
+   "sha256": "a8b98b5a18c9bba66c0916751f0560503343b851bd65172e05dc365c858b1aaf",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33161,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, fellatio, oral, penis in mouth, sucking, hollow cheeks, sunken cheeks, stretched mouth, long face, elongated face, deepthroat, nude, completely nude, brown_hair, long_hair, bedroom, single scene, looking up, upturned eyes, blush, heavy blush, sweat, desperate to please, eager to please, devoted, aroused, penis, flesh colored penis, tongue out",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, censor bar, mosaic censoring, censored, green penis, discolored penis"
+   }
+  },
+  {
+   "id": "img-cov-037-r7a",
+   "label": "cov-037 directed r7a — her orgasm face as her paizuri makes him cum",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row A2f cell 1.",
+   "file": "img-cov-037-r7a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-cov-037-r7a.png",
+   "sha256": "1d9d05e7741667e2b5d6410b913304db549b95edb16f144bee6f297740ead3ed",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33171,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, paizuri, between breasts, penis between breasts, breasts squeezed together, squeezing breasts together, defined breasts, huge breasts, deep cleavage, nude, completely nude, brown_hair, long_hair, bedroom, single scene, penis, flesh colored penis, ejaculation, cum, cum on breasts, cum on face, cum on body, female orgasm, orgasm, orgasm face, ecstasy, eyes rolled back, half-closed eyes, flushed face, trembling, open mouth, drooling, very aroused, proud",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, censor bar, mosaic censoring, censored, green penis, discolored penis"
+   }
+  },
+  {
+   "id": "img-cov-037-r8a",
+   "label": "cov-037 directed r8a — deepthroat side profile, elongated sucking face, tears, hatched blush",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row A2g cell 1.",
+   "file": "img-cov-037-r8a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-cov-037-r8a.png",
+   "sha256": "343e66c7c7acd8ac7bea4ecf9aaf6bf5f1e9fd3add838941b08a7cbb20ee33cf",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33181,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, fellatio, oral, deepthroat, penis deep in mouth, penis in throat, throat bulge, sucking, hollow cheeks, sunken cheeks, mouth stretched around penis, face stretched, long face, side view, profile, nude, completely nude, brown_hair, long_hair, bedroom, single scene, looking up, blush, heavy blush, sweat, tears, desperate to please, eager to please, aroused, penis, flesh colored penis",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, censor bar, mosaic censoring, censored, green penis, discolored penis, licking testicles, sucking testicles, balls in mouth, testicles in mouth"
+   }
+  },
+  {
+   "id": "img-cov-042-r1",
+   "label": "cov-042 retry r1 — mating press, nakadashi, legs up, overwhelmed",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row A3 cell 1.",
+   "file": "img-cov-042-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-042-r1.png",
+   "sha256": "e68ddc233fcfea57d1fddd171f698c762655b9d3b0d204dcceb4b47d73a43cbd",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33119,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, nakadashi, creampie, mating press, blonde_hair, long_hair, bedroom, legs up, overwhelmed, blush, heart",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-046-r1",
+   "label": "cov-046 retry r1 — adult college sophomore recast, anal tail-plug presenting",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row A3 cell 3.",
+   "file": "img-cov-046-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-046-r1.png",
+   "sha256": "d8990c98c8cd739a6644bdecaefeb814276ef7387e7bc9bff5a711e2a7b0b520",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33105,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, anal, butt plug, tail butt plug, bent over, black_hair, twintails, bedroom, presenting, embarrassed, heart, adult college sophomore, university student, adult woman in her early 20s",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-cov-046-r2",
+   "label": "cov-046 retry r2 — adult college sophomore recast, anal tail-plug presenting",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row A3 cell 4.",
+   "file": "img-cov-046-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-cov-046-r2.png",
+   "sha256": "11b7ece65fb539f92300e627fa589205a1a50f4c89a432fc7393a0929b860d7d",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33106,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, anal, butt plug, tail butt plug, bent over, black_hair, twintails, bedroom, presenting, embarrassed, heart, adult college sophomore, university student, adult woman in her early 20s",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-hx-003-r1",
+   "label": "hx-003 retry r1 — hypnosis lactation, kitchen trance, uneven pupils",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row B1 cell 1.",
+   "file": "img-hx-003-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-hx-003-r1.png",
+   "sha256": "754557ca05109134bdd472389d75e12de21cb8d542a0534e1f71a0e659c473bb",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33107,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, hypnosis, lactation, breast milk, empty eyes, dazed smile, huge breasts, dark_hair, long_hair, kitchen, trance, blouse open, uneven pupils, mismatched pupils, different sized pupils, one heart-shaped pupil, one spiral pupil",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-hx-003-r3a",
+   "label": "hx-003 redo r3a — leaking nipples, aroused blush, openly delighted at being seen",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row B1b cell 1 (all three r3 kept).",
+   "file": "img-hx-003-r3a.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-hx-003-r3a.png",
+   "sha256": "ac53326e130e591308c7462982a655cd2fb834bbf72a16faeb6ccd2cb14e25d2",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33211,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, hypnosis, lactation, breast milk, leaking milk, milk dripping from nipples, aroused, blush, embarrassed, shy smile, secretly pleased, secretly enjoying being seen, exhibitionism, looking at viewer, trembling, huge breasts, dark_hair, long_hair, kitchen, blouse open, uneven pupils, mismatched pupils, different sized pupils, one heart-shaped pupil, one spiral pupil",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, censor bar, mosaic censoring, censored"
+   }
+  },
+  {
+   "id": "img-hx-003-r3b",
+   "label": "hx-003 redo r3b — leaking nipples, brazen delight",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row B1b cell 2 — over Pax PARTIAL gate; owner governs.",
+   "file": "img-hx-003-r3b.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-hx-003-r3b.png",
+   "sha256": "4d22939a0bd056a81d66c2f674f7499467c406c5edd95bade84765b126ccddf2",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33212,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, hypnosis, lactation, breast milk, leaking milk, milk dripping from nipples, aroused, blush, embarrassed, shy smile, secretly pleased, secretly enjoying being seen, exhibitionism, looking at viewer, trembling, huge breasts, dark_hair, long_hair, kitchen, blouse open, uneven pupils, mismatched pupils, different sized pupils, one heart-shaped pupil, one spiral pupil",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, censor bar, mosaic censoring, censored"
+   }
+  },
+  {
+   "id": "img-hx-003-r3c",
+   "label": "hx-003 redo r3c — leaking through maid blouse, sly sideways glance, secret pleasure",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, row B1b cell 3 (Pax PASS-on-directive).",
+   "file": "img-hx-003-r3c.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261025/img-hx-003-r3c.png",
+   "sha256": "792f8d2bf36de5d731fdc04dc1f27d9b2d81e9f87fb929dabc94bef68065cd1c",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33213,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, hypnosis, lactation, breast milk, leaking milk, milk dripping from nipples, aroused, blush, embarrassed, shy smile, secretly pleased, secretly enjoying being seen, exhibitionism, looking at viewer, trembling, huge breasts, dark_hair, long_hair, kitchen, blouse open, uneven pupils, mismatched pupils, different sized pupils, one heart-shaped pupil, one spiral pupil",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, split screen, multiple panels, comic panels, collage, multiple views, diptych, triptych, panel layout, inset panel, storyboard, censor bar, mosaic censoring, censored"
+   }
+  },
+  {
+   "id": "img-hx-004-r2",
+   "label": "hx-004 retry r2 — deep trance ahegao, heart pupils",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row B1 cell 4 — over Pax FAIL-on-directive (symmetric pupils); owner governs.",
+   "file": "img-hx-004-r2.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-hx-004-r2.png",
+   "sha256": "e565c40828ca13e5b14fa31315b149ad87a50e29b2574c0a0fd8c9245bdd7bff",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33110,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, hypnosis, mind break, empty eyes, @_@, broken, drooling, heart-shaped pupils, black_hair, twintails, ahegao, deep trance, bedroom, uneven pupils, mismatched pupils, different sized pupils, one heart-shaped pupil, one spiral pupil",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  },
+  {
+   "id": "img-hx-005-r1",
+   "label": "hx-005 retry r1 — hypnosis netorare, hotel room, spiral eyes, wedding ring",
+   "status": "KEEPER",
+   "basis": "Owner keep 2026-10-25, retry row B2 cell 1 — over Pax FAIL-on-directive (symmetric spirals); owner governs.",
+   "file": "img-hx-005-r1.png",
+   "primo_path": "~/ntr-corpus/images/_candidates/eye-pass-retries-20261024/img-hx-005-r1.png",
+   "sha256": "a43d7d849b05e533058649f1e1d221fd755f6191e347745ebb8513195a2c84f9",
+   "recipe": {
+    "checkpoint": "Iris.safetensors",
+    "seed": 33111,
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "width": 832,
+    "height": 1216,
+    "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, 1boy, hetero, hypnosis, netorare, wedding ring, spiral eyes, hotel room, red_hair, long_hair, dazed, cheating (relationship), entranced, uneven pupils, mismatched pupils, different sized pupils, one heart-shaped pupil, one spiral pupil",
+    "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona"
+   }
+  }
+ ],
+ "candidates_awaiting_owner_verdict": [
+  {
+   "file": "specs-h-v11/img-h-e9.png",
+   "seed": 9769,
+   "note": "H-E9 predator grin, Pax gate full land; owner verdict pending"
+  },
+  {
+   "file": "specs-h-v11/img-h-s10.png",
+   "seed": 9823,
+   "note": "H-S10 self-proposed arrangement (fenced), Pax gate land; verdict pending"
+  },
+  {
+   "file": "specs-h-v11/img-h-s12-a/b/c.png",
+   "seed": 9770,
+   "note": "H-S12 arousal-swelling 3-state set, Pax gate land; verdict pending"
+  },
+  {
+   "file": "specs-h-v22/img-h-x4.png",
+   "seed": 19404,
+   "note": "Self-suckle act winner (tongue on lifted nipple); verdict pending"
+  },
+  {
+   "file": "specs-h-v29/img-h-x7-hand20805.png",
+   "seed": 20805,
+   "note": "x7 round 2 PARTIAL: one coherent gripping hand with spray at the left breast; pinching hand absent; no furniture (20802 has the hand but a table edge intrudes)"
+  },
+  {
+   "file": "specs-h-v35/img-h-e12-r1.png",
+   "seed": 21411,
+   "note": "E12 RETRY WINNER (Pax pick): strongest eye split yet (one rolled white, one open) + dual milk spray + squirt starburst. Delivered 19:1x for verdict."
+  },
+  {
+   "file": "specs-h-v35/img-h-s8t-final.png",
+   "seed": 21424,
+   "note": "S8 TANKARD RETRY FINAL: r4 act winner + deterministic royal-script lettering, sha bd365496. Pax-selected, awaiting verdict."
+  },
+  {
+   "file": "eye-pass-retries-20261025/img-cov-042-r3a.png",
+   "seed": 33191,
+   "note": "cov-042 redo r3a: face visible, uneven corrupted orgasm (magenta swirl heart eye vs white heart-pupil eye). Pax STRONG PASS. Banked unruled; cov-042 slot parked for owner circle-back."
+  },
+  {
+   "file": "eye-pass-retries-20261025/img-cov-042-r3b.png",
+   "seed": 33192,
+   "note": "cov-042 redo r3b: uneven eyes land (blue heart vs magenta), composition tangles. Pax PARTIAL. Banked unruled; slot parked."
+  },
+  {
+   "file": "eye-pass-retries-20261025/img-cov-042-r4a.png",
+   "seed": 33120,
+   "note": "cov-042 r4a: same-seed face-reveal attempt on r2; base scene did not hold (recomposed inverted face close-up). Banked unruled; slot parked."
+  },
+  {
+   "file": "eye-pass-retries-20261025/img-cov-042-r4b.png",
+   "seed": 33193,
+   "note": "cov-042 r4b: same-prompt face-reveal attempt; base scene did not hold. Banked unruled; slot parked."
+  },
+  {
+   "file": "eye-pass-retries-20261025/img-hx-009-x2.png",
+   "seed": null,
+   "note": "hx-009 x-ray composite x2: rimmed x-ray window over her CLOSED coat; gold rope harness + nipple clamp over the dark dress beneath; outside fully clothed. First render implementing the device. Verdict pending owner."
+  }
+ ],
+ "failed_rounds": [
+  {
+   "round": "specs-h-v30-x8",
+   "note": "Right-hand distinguishability inpaint on x8 20604 FAILED all 4 seeds: 20901 fingers scrambled into the milk splash (crop-verified), 20902 green-yellow block artifact at the mouth, 20903/20904 splash masses. The v27 fist remains the best x8 hand state. Lesson: mask sat inside the milk-splash zone and the model filled it with splash; a tighter fist-only mask excluding the splash is the next lever."
+  },
+  {
+   "round": "specs-h-v29 (partial)",
+   "note": "Full bottom-band mask invited furniture (table edges) in 20802/20804 and palette shift in 20801; white glove hand in 20806. Best = 20805 partial."
+  }
+ ]
+}

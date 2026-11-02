@@ -1,0 +1,31 @@
+{
+  "item_id": "img-hx-009-c4e",
+  "status": "OK",
+  "file": "img-hx-009-c4e-enbase3.png",
+  "output": "/home/phaedrus/ntr-corpus/images/_candidates/covert-v4-20261024/img-hx-009-c4e-enbase3.png",
+  "sha256": "d2390af58344da545f49ec5547b0ce0516a7a23e5d9e6212580b412a1130c8af",
+  "bytes": 1440931,
+  "method": "native-resolution masked inpaint (VAEEncodeForInpaint, grow_mask_by=20), stage 1 of the English body-writing redo",
+  "checkpoint": "Iris.safetensors",
+  "seed": 34209,
+  "steps": 40,
+  "cfg": 5.5,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "denoise": 1.0,
+  "mask_ellipses": [
+    [
+      675,
+      395,
+      840,
+      705
+    ]
+  ],
+  "positive": "masterpiece, best quality, absurdres, anime coloring, cel shading, flat color, sharp lineart, vibrant colors, detailed eyes, shiny hair, 1girl, solo, adult woman, black hair, bob cut, gold rope harness, shibari, tight rope, nipple clamps, bare skin, smooth skin, clean unmarked skin, blank skin, plain skin, hypnosis, heart-shaped pupils, aroused, blush, smile",
+  "negative": "worst quality, low quality, lowres, blurry, jpeg_artifacts, watermark, signature, text, logo, realistic, photorealistic, 3d, cgi, sketch, chibi, super_deformed, bad_anatomy, bad_hands, bad_feet, extra_fingers, missing_fingers, extra_limbs, fused_fingers, deformed, cropped, out_of_frame, young, loli, child, teen, shota, multiple_girls, twins, multiple_persona, body writing, writing on skin, letters, kanji, markings, tattoo",
+  "source_type": "owner-directed-edit",
+  "derived_from": "img-hx-009-c4e-enbase2.png",
+  "derived_from_sha256": "1c50c61d74c5b38ea5275646466fba8ad3d73ba537fd5e923f4bb8d4f0a86efb",
+  "owner_directive": "Owner 2026-10-24: redo the body writing so it is English; stage 1 inpaint glyph writing to clean skin, stage 2 PIL composite adds English marker text",
+  "prompt_id": "031545d5-4a6c-4df1-86e2-cd8eb14d1282"
+}

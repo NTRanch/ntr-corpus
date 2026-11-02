@@ -1,0 +1,8 @@
+{
+ "derived_from": "img-hx-009-c4e.png",
+ "method": "masked inpaint glyph removal (correctly masked pass over the thigh column) + PIL English marker composite: SLAVE vertical on thigh",
+ "owner_directive": "Owner 2026-10-24: redo the body writing so it is English only",
+ "file": "img-hx-009-c4e-en.png",
+ "sha256": "5759406e5a6c4c10a650f9ee77aa10e943827efd33c171aa982f13427a3d99b1",
+ "bytes": 1389228
+}

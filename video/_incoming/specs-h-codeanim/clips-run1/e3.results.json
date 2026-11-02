@@ -1,0 +1,13 @@
+{
+ "frames": 96,
+ "fps": 16.0,
+ "size": [
+  832,
+  1216
+ ],
+ "render_wall_s": 23.125,
+ "spring_seam_residual_px": 0.0,
+ "loop_seam_meanabsdiff": 3.3268,
+ "median_interframe_meanabsdiff": 8.9559,
+ "job": "/home/phaedrus/ntr-corpus/video/_incoming/specs-h-codeanim/jobs/e3.json"
+}
